@@ -14,7 +14,7 @@ const serviceSteps = [
       "We don\u2019t just organise loans, we structure smart finance that works with your bigger picture, not against it.",
     image: "/images/service-finance.webp",
     alt: "Finance & Mortgage Broking",
-    href: "/clone/services/finance-mortgage-broking",
+    href: "/finance-mortgage-broking",
   },
   {
     title: "Investment Acquisition",
@@ -22,7 +22,7 @@ const serviceSteps = [
       "We help you find, assess and secure quality investments that fit your goals, not just what\u2019s available, but what\u2019s right.",
     image: "/images/service-investment.webp",
     alt: "Investment Acquisition",
-    href: "/clone/services/investment-acquisition",
+    href: "/investment-acquisition",
   },
   {
     title: "Asset Management",
@@ -30,7 +30,7 @@ const serviceSteps = [
       "Managing your portfolio isn\u2019t a task, it\u2019s a strategy. We work to grow your assets while protecting what matters most.",
     image: "/images/service-asset.webp",
     alt: "Asset Management",
-    href: "/clone/services/asset-management",
+    href: "/asset-management",
   },
   {
     title: "Legal Services",
@@ -38,7 +38,7 @@ const serviceSteps = [
       "Our legal partners keep your path clear, from contracts to settlements, so you can move forward with confidence.",
     image: "/images/service-legal.webp",
     alt: "Legal Services",
-    href: "/clone/services/legal-services",
+    href: "/legal-services-2",
   },
   {
     title: "Tax Accounting",
@@ -46,7 +46,7 @@ const serviceSteps = [
       "We simplify the complex, giving you tax strategies that make sense, save money and support your broader plan.",
     image: "/images/service-tax.webp",
     alt: "Tax Accounting",
-    href: "/clone/services/tax-accounting",
+    href: "/tax-services",
   },
   {
     title: "Financial Planning",
@@ -54,7 +54,7 @@ const serviceSteps = [
       "We don\u2019t just give advice, we walk with you. At every life stage, we build strategies that actually mean something.",
     image: "/images/service-financial.webp",
     alt: "Financial Planning",
-    href: "/clone/services/financial-planning",
+    href: "/financial-services",
   },
 ];
 

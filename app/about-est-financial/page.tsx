@@ -8,11 +8,11 @@ export default function AboutEstFinancialPage() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   const navLinks = [
-    "About Us",
-    "Our Team",
-    "Our Media",
-    "Success Stories",
-    "Services",
+    { label: "About Us", href: "/about-est-financial" },
+    { label: "Our Team", href: "/team" },
+    { label: "Our Media", href: "/our-blog" },
+    { label: "Success Stories", href: "/#reviews" },
+    { label: "Services", href: "/services" },
   ];
 
   return (
@@ -23,7 +23,7 @@ export default function AboutEstFinancialPage() {
       <nav className="sticky top-0 z-50 border-b-2 border-[#C20000] bg-[#000000] px-[10px]">
         <div className="mx-auto flex max-w-[1240px] items-center justify-between py-[10px]">
           {/* Logo */}
-          <a href="#" className="shrink-0">
+          <a href="/" className="shrink-0">
             <Image
               src="/images/logo.webp"
               alt="est Financial"
@@ -36,17 +36,17 @@ export default function AboutEstFinancialPage() {
 
           {/* Desktop Nav Links - grouped to the right */}
           <div className="ml-auto hidden items-center gap-[2px] lg:flex">
-            {navLinks.map((link) => (
+            {navLinks.map(({ label: link, href: linkHref }) => (
               <a
                 key={link}
-                href="#"
+                href={linkHref}
                 className="px-[20px] py-[13px] text-[24px] font-semibold leading-[20px] text-white transition-all duration-[400ms] hover:text-[#C20000]"
               >
                 {link}
               </a>
             ))}
             <a
-              href="#"
+              href="/about-est-financial"
               className="ml-[8px] rounded-[6px] bg-[#E60000] px-[24px] py-[12px] text-[22px] font-extrabold leading-[22px] text-white transition-all duration-[400ms] hover:bg-white hover:text-[#E60000]"
             >
               Free Consultation
@@ -80,7 +80,7 @@ export default function AboutEstFinancialPage() {
               className="overflow-hidden bg-black lg:hidden"
             >
               <div className="flex flex-col px-[20px] py-[20px]">
-                {navLinks.map((link) => (
+                {navLinks.map(({ label: link, href: linkHref }) => (
                   <a
                     key={link}
                     href="#"
@@ -413,17 +413,17 @@ export default function AboutEstFinancialPage() {
               unoptimized
             />
             <div className="flex flex-wrap items-center gap-[4px]">
-              {navLinks.map((link) => (
+              {navLinks.map(({ label: link, href: linkHref }) => (
                 <a
                   key={link}
-                  href="#"
+                  href={linkHref}
                   className="px-[12px] py-[8px] text-[16px] font-semibold leading-[20px] text-white transition-all duration-[400ms] hover:text-[#C20000]"
                 >
                   {link}
                 </a>
               ))}
               <a
-                href="#"
+                href="/about-est-financial"
                 className="ml-[8px] rounded-[6px] bg-[#E60000] px-[20px] py-[10px] text-[16px] font-extrabold leading-[16px] text-white transition-all duration-[400ms] hover:bg-white hover:text-[#E60000]"
               >
                 Free Consultation

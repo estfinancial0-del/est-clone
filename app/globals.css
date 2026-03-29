@@ -1,4 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;600;700;800;900&family=Open+Sans:wght@400;700&family=Poppins:wght@400;800&family=Nothing+You+Could+Do&display=swap");
 @import "tailwindcss";
+
+@font-face {
+  font-family: "Longhand";
+  font-style: normal;
+  font-weight: 700;
+  src: url("/fonts/longhand-bold.ttf") format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Longhand";
+  font-style: normal;
+  font-weight: 400;
+  src: url("/fonts/longhand-regular.ttf") format("truetype");
+  font-display: swap;
+}
 
 :root {
   --background: #ffffff;
@@ -12,15 +29,10 @@
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
 }

@@ -1,0 +1,8 @@
+{
+  "name": "screenshot-capture",
+  "type": "module",
+  "private": true,
+  "dependencies": {
+    "playwright": "^1.49.0"
+  }
+}

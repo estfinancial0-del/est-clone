@@ -1,0 +1,1996 @@
+{
+  "about": {
+    "fullPageScreenshots": [
+      "full-page-desktop.png",
+      "full-page-tablet.png",
+      "full-page-mobile.png"
+    ],
+    "sectionScreenshots": [],
+    "componentScreenshots": [
+      "component-nav-default.png",
+      "component-button-1.png",
+      "component-button-1-hover.png",
+      "component-accordion-1.png",
+      "component-accordion-1-hover.png"
+    ],
+    "content": {
+      "title": "About est. Financial | Strategy‑Led Finance, Property & Tax",
+      "meta": "We combine mortgage broking, investment strategy, asset management and tax advisory to help you compound wealth with governance and care.",
+      "bodyText": "Free Consultation\nAbout Us\nOur Team\nOur Media\nSuccess Stories\nServices\nAbout est\n\nAt est, we don’t just manage money, we manage meaning. We understand that your financial life isn’t separate from your real life. It’s deeply connected to your choices, your emotions, your fears, and your dreams. That’s why we don’t see what we do as a single transaction or a one-time event. For us, it’s a lifelong relationship built on trust, honesty, and shared growth. We walk beside you, not in front of you, not behind you, but with you through every season of your life.\n\nWe know that behind every financial goal is a deeper story: a family trying to find stability, an individual chasing freedom, a couple building a legacy. And we know that most people don’t just need spreadsheets and statements, they need someone who truly listens. Someone who gets how overwhelming, frustrating, and even isolating financial stress can feel. That’s why we take the time to understand your journey, not just your numbers.\n\nWe’re here to ask better questions. What’s really holding you back? What’s keeping you up at night? What would your life look like if money wasn’t a source of stress, but a tool for clarity, choice, and confidence? That’s where we come in.\n\nest was built to be the financial services company that changes lives, not just balances. We offer real, practical solutions tailored to your unique challenges, whether that means reducing your debt, improving your tax position, growing your investments, or simply regaining a sense of control. We treat your goals with the same seriousness and care as we treat our own.\n\nBecause when you win, we win.\n\nChoosing financial advice is a lot like choosing a meal. On the surface, it might seem like it’s just about what’s on the plate—numbers, products, strategies. But when you really think about it, it’s never just about the meal. It’s about what that meal does for you.\n\nIs it nourishing? Does it give you energy? Will it support your health and wellbeing long after the last bite? That’s how we approach financial planning at est. We don’t just serve up a solution, we think about how it will sustain you. Will this strategy give you peace of mind? Will this plan reduce your stress? Will it help you sleep better at night, knowing your future is secure?\n\nBecause just like a good meal fuels your body, a well-structured plan should fuel your life. It should give you confidence, clarity, and capacity to focus on what truly matters: your family, your freedom, your goals. That’s why at est, it’s not just about what we do. It’s about what our work does for you.\n\nAt est, we grow with our clients. We’re raw. We’re real. And we’re in it for the long haul. Because we believe that what we do shouldn’t just change your bank balance, it should change your life. But beyond the results, our true aim is to become a trusted presence in your life, the kind that’s not just useful but memorable. That’s what it means to us to serve with integrity and heart.\n\nThat's what it means to us to serve with integrity and heart\nYour Journey with Us\nSTEP\n01\n\nBook your free consultation with us here.\n\nSTEP\n02\n\nOur team will be in touch shortly to discuss your goals in detail. From there, we'll assess how we can best support you and determine the most effective way forward.\n\nSTEP\n03\n\nFollowing that, we'll invite you to our office for a dedicated session with our property strategist, mortgage broker, or both depending on your needs, to explore tailored solutions and outline the best course of action.\n\nCredit Guide\nPrivacy Policy\nFacebook-f\n \nYoutube\n \nInstagram\n \nTiktok\nHEAD OFFICE\nLevel 18,\n1 Castlereagh St,\nSydney, NSW 2000\nCONTACT US\nEnquiries@est.com.au\n1300 123 378\n\nAll strategies and information provided on this website are general advice only and does not take into consideration any of your personal circumstances. Please arrange an appointment to seek personal financial and taxation advice prior to acting on this information. Copyright @ 2025 EST FINANCIAL Pty Ltd ABN 30 611 799 850. All rights reserved.",
+      "sections": [
+        {
+          "index": 2,
+          "top": 0,
+          "height": 148,
+          "width": 1920,
+          "bg": "rgb(0, 0, 0)",
+          "classes": "elementor-element elementor-element-a63fae1 e-flex e-con-boxed e-con e-parent e-lazyloaded elementor-sticky elementor-sticky--effects elementor-sticky--active elementor-section--handles-inside",
+          "headings": [],
+          "text": "Free Consultation\nAbout Us\nOur Team\nOur Media\nSuccess Stories\nServices"
+        }
+      ],
+      "headings": [
+        {
+          "tag": "H2",
+          "text": "About est",
+          "font": "longhand-lp, sans-serif",
+          "size": "70px",
+          "weight": "600",
+          "color": "rgb(255, 255, 255)"
+        },
+        {
+          "tag": "H2",
+          "text": "That's what it means to us to serve with integrity and heart",
+          "font": "longhand-lp, sans-serif",
+          "size": "42px",
+          "weight": "600",
+          "color": "rgb(255, 255, 255)"
+        },
+        {
+          "tag": "H2",
+          "text": "Your Journey with Us",
+          "font": "longhand-lp, sans-serif",
+          "size": "60px",
+          "weight": "600",
+          "color": "rgb(255, 255, 255)"
+        },
+        {
+          "tag": "H2",
+          "text": "HEAD OFFICE",
+          "font": "Roboto, sans-serif",
+          "size": "18px",
+          "weight": "600",
+          "color": "rgb(194, 0, 0)"
+        },
+        {
+          "tag": "H2",
+          "text": "Level 18,\n1 Castlereagh St,\nSydney, NSW 2000",
+          "font": "Roboto, sans-serif",
+          "size": "17px",
+          "weight": "400",
+          "color": "rgb(0, 0, 0)"
+        },
+        {
+          "tag": "H2",
+          "text": "CONTACT US",
+          "font": "Roboto, sans-serif",
+          "size": "18px",
+          "weight": "600",
+          "color": "rgb(194, 0, 0)"
+        },
+        {
+          "tag": "H2",
+          "text": "Enquiries@est.com.au",
+          "font": "Roboto, sans-serif",
+          "size": "17px",
+          "weight": "400",
+          "color": "rgb(0, 0, 0)"
+        },
+        {
+          "tag": "H2",
+          "text": "1300 123 378",
+          "font": "Roboto, sans-serif",
+          "size": "17px",
+          "weight": "400",
+          "color": "rgb(0, 0, 0)"
+        }
+      ],
+      "paragraphs": [
+        "At est, we don’t just manage money, we manage meaning. We understand that your financial life isn’t separate from your real life. It’s deeply connected to your choices, your emotions, your fears, and your dreams. That’s why we don’t see what we do as a single transaction or a one-time event. For us, it’s a lifelong relationship built on trust, honesty, and shared growth. We walk beside you, not in front of you, not behind you, but with you through every season of your life.",
+        "We know that behind every financial goal is a deeper story: a family trying to find stability, an individual chasing freedom, a couple building a legacy. And we know that most people don’t just need spreadsheets and statements, they need someone who truly listens. Someone who gets how overwhelming, frustrating, and even isolating financial stress can feel. That’s why we take the time to understand your journey, not just your numbers.",
+        "We’re here to ask better questions. What’s really holding you back? What’s keeping you up at night? What would your life look like if money wasn’t a source of stress, but a tool for clarity, choice, and confidence? That’s where we come in.",
+        "est was built to be the financial services company that changes lives, not just balances. We offer real, practical solutions tailored to your unique challenges, whether that means reducing your debt, improving your tax position, growing your investments, or simply regaining a sense of control. We treat your goals with the same seriousness and care as we treat our own.",
+        "Because when you win, we win.",
+        "Choosing financial advice is a lot like choosing a meal. On the surface, it might seem like it’s just about what’s on the plate—numbers, products, strategies. But when you really think about it, it’s never just about the meal. It’s about what that meal does for you.",
+        "Is it nourishing? Does it give you energy? Will it support your health and wellbeing long after the last bite? That’s how we approach financial planning at est. We don’t just serve up a solution, we think about how it will sustain you. Will this strategy give you peace of mind? Will this plan reduce your stress? Will it help you sleep better at night, knowing your future is secure?",
+        "Because just like a good meal fuels your body, a well-structured plan should fuel your life. It should give you confidence, clarity, and capacity to focus on what truly matters: your family, your freedom, your goals. That’s why at est, it’s not just about what we do. It’s about what our work does for you.",
+        "At est, we grow with our clients. We’re raw. We’re real. And we’re in it for the long haul. Because we believe that what we do shouldn’t just change your bank balance, it should change your life. But beyond the results, our true aim is to become a trusted presence in your life, the kind that’s not just useful but memorable. That’s what it means to us to serve with integrity and heart.",
+        "Book your free consultation with us here.",
+        "Our team will be in touch shortly to discuss your goals in detail. From there, we'll assess how we can best support you and determine the most effective way forward.",
+        "Following that, we'll invite you to our office for a dedicated session with our property strategist, mortgage broker, or both depending on your needs, to explore tailored solutions and outline the best course of action.",
+        "All strategies and information provided on this website are general advice only and does not take into consideration any of your personal circumstances. Please arrange an appointment to seek personal financial and taxation advice prior to acting on this information. Copyright @ 2025 EST FINANCIAL Pty Ltd ABN 30 611 799 850. All rights reserved."
+      ],
+      "links": [
+        {
+          "text": "About Us",
+          "href": "https://est.com.au/about-est-financial/"
+        },
+        {
+          "text": "Our Team",
+          "href": "https://est.com.au/team/"
+        },
+        {
+          "text": "Our Media",
+          "href": "https://est.com.au/our-blog/"
+        },
+        {
+          "text": "Success Stories",
+          "href": "https://est.com.au/#reviews"
+        },
+        {
+          "text": "Services",
+          "href": "https://est.com.au/services/"
+        },
+        {
+          "text": "About Us",
+          "href": "https://est.com.au/about-est-financial/"
+        },
+        {
+          "text": "Our Team",
+          "href": "https://est.com.au/team/"
+        },
+        {
+          "text": "Our Media",
+          "href": "https://est.com.au/our-blog/"
+        },
+        {
+          "text": "Success Stories",
+          "href": "https://est.com.au/#reviews"
+        },
+        {
+          "text": "Services",
+          "href": "https://est.com.au/services/"
+        },
+        {
+          "text": "Free Consultation",
+          "href": "https://est.com.au/welcome/"
+        },
+        {
+          "text": "Free Consultation",
+          "href": "https://est.com.au/welcome/"
+        },
+        {
+          "text": "About Us",
+          "href": "https://est.com.au/about-est-financial/"
+        },
+        {
+          "text": "Our Team",
+          "href": "https://est.com.au/team/"
+        },
+        {
+          "text": "Our Media",
+          "href": "https://est.com.au/our-blog/"
+        },
+        {
+          "text": "Success Stories",
+          "href": "https://est.com.au/#reviews"
+        },
+        {
+          "text": "Services",
+          "href": "https://est.com.au/services/"
+        },
+        {
+          "text": "About Us",
+          "href": "https://est.com.au/about-est-financial/"
+        },
+        {
+          "text": "Our Team",
+          "href": "https://est.com.au/team/"
+        },
+        {
+          "text": "Our Media",
+          "href": "https://est.com.au/our-blog/"
+        },
+        {
+          "text": "Success Stories",
+          "href": "https://est.com.au/#reviews"
+        },
+        {
+          "text": "Services",
+          "href": "https://est.com.au/services/"
+        },
+        {
+          "text": "About Us",
+          "href": "https://est.com.au/about-est-financial/"
+        },
+        {
+          "text": "Our Team",
+          "href": "https://est.com.au/team/"
+        },
+        {
+          "text": "Our Media",
+          "href": "https://est.com.au/our-blog/"
+        },
+        {
+          "text": "Success Stories",
+          "href": "https://est.com.au/#reviews"
+        },
+        {
+          "text": "Services",
+          "href": "https://est.com.au/services/"
+        },
+        {
+          "text": "here",
+          "href": "https://www.est.com.au/welcome/"
+        },
+        {
+          "text": "Credit Guide",
+          "href": "https://est.com.au/credit-guide/"
+        },
+        {
+          "text": "Privacy Policy",
+          "href": "https://est.com.au/privacy-policy/"
+        },
+        {
+          "text": "Facebook-f",
+          "href": "https://www.facebook.com/profile.php?id=61572661042298"
+        },
+        {
+          "text": "Youtube",
+          "href": "https://m.youtube.com/channel/UCvx_l-nPr3zDPKu9TVI1qTw"
+        },
+        {
+          "text": "Instagram",
+          "href": "https://est.com.au/wp-content/uploads/2025/04/140x350-est-logo.svg"
+        },
+        {
+          "text": "Tiktok",
+          "href": "http://tiktok.com/@estfinanceofficial"
+        },
+        {
+          "text": "Enquiries@est.com.au",
+          "href": "mailto:%20enquiries@est.com.au"
+        },
+        {
+          "text": "1300 123 378",
+          "href": "tel:%201300%20123%20378"
+        }
+      ],
+      "images": [
+        {
+          "src": "https://est.com.au/wp-content/uploads/2024/12/estsvg.svg",
+          "alt": "",
+          "width": 300,
+          "height": 125
+        },
+        {
+          "src": "https://est.com.au/wp-content/uploads/2025/01/ff_03.webp",
+          "alt": "",
+          "width": 575,
+          "height": 248
+        },
+        {
+          "src": "https://est.com.au/wp-content/uploads/2025/01/ff_03.webp",
+          "alt": "",
+          "width": 575,
+          "height": 248
+        },
+        {
+          "src": "https://est.com.au/wp-content/uploads/2025/07/arrow.svg",
+          "alt": "arrow",
+          "width": 2691,
+          "height": 2839
+        },
+        {
+          "src": "https://est.com.au/wp-content/uploads/2025/07/pediatrician-meeting-with-mother-and-child-in-hosp-2024-10-19-05-58-55-utc-scaled.webp",
+          "alt": "",
+          "width": 2560,
+          "height": 1707
+        },
+        {
+          "src": "https://est.com.au/wp-content/uploads/2025/07/lets-stand-together-shot-of-a-group-of-unrecogniz-2025-04-06-10-59-19-utc-scaled.webp",
+          "alt": "",
+          "width": 2560,
+          "height": 1709
+        },
+        {
+          "src": "https://est.com.au/wp-content/uploads/2025/07/arrow.svg",
+          "alt": "arrow",
+          "width": 2691,
+          "height": 2839
+        },
+        {
+          "src": "https://est.com.au/wp-content/uploads/2025/04/140x350-est-logo.svg",
+          "alt": "",
+          "width": 350,
+          "height": 140
+        }
+      ],
+      "buttons": [],
+      "styles": {
+        "bodyFont": "\"Open Sans\", Arial, sans-serif",
+        "bodyColor": "rgb(102, 102, 102)",
+        "bodyBg": "rgb(255, 255, 255)"
+      },
+      "navItems": [
+        {
+          "text": "About Us",
+          "href": "https://est.com.au/about-est-financial/"
+        },
+        {
+          "text": "Our Team",
+          "href": "https://est.com.au/team/"
+        },
+        {
+          "text": "Our Media",
+          "href": "https://est.com.au/our-blog/"
+        },
+        {
+          "text": "Success Stories",
+          "href": "https://est.com.au/#reviews"
+        },
+        {
+          "text": "Services",
+          "href": "https://est.com.au/services/"
+        },
+        {
+          "text": "About Us",
+          "href": "https://est.com.au/about-est-financial/"
+        },
+        {
+          "text": "Our Team",
+          "href": "https://est.com.au/team/"
+        },
+        {
+          "text": "Our Media",
+          "href": "https://est.com.au/our-blog/"
+        },
+        {
+          "text": "Success Stories",
+          "href": "https://est.com.au/#reviews"
+        },
+        {
+          "text": "Services",
+          "href": "https://est.com.au/services/"
+        },
+        {
+          "text": "Free Consultation",
+          "href": "https://est.com.au/welcome/"
+        },
+        {
+          "text": "About Us",
+          "href": "https://est.com.au/about-est-financial/"
+        },
+        {
+          "text": "Our Team",
+          "href": "https://est.com.au/team/"
+        },
+        {
+          "text": "Our Media",
+          "href": "https://est.com.au/our-blog/"
+        },
+        {
+          "text": "Success Stories",
+          "href": "https://est.com.au/#reviews"
+        },
+        {
+          "text": "Services",
+          "href": "https://est.com.au/services/"
+        },
+        {
+          "text": "About Us",
+          "href": "https://est.com.au/about-est-financial/"
+        },
+        {
+          "text": "Our Team",
+          "href": "https://est.com.au/team/"
+        },
+        {
+          "text": "Our Media",
+          "href": "https://est.com.au/our-blog/"
+        },
+        {
+          "text": "Success Stories",
+          "href": "https://est.com.au/#reviews"
+        },
+        {
+          "text": "Services",
+          "href": "https://est.com.au/services/"
+        },
+        {
+          "text": "About Us",
+          "href": "https://est.com.au/about-est-financial/"
+        },
+        {
+          "text": "Our Team",
+          "href": "https://est.com.au/team/"
+        },
+        {
+          "text": "Our Media",
+          "href": "https://est.com.au/our-blog/"
+        },
+        {
+          "text": "Success Stories",
+          "href": "https://est.com.au/#reviews"
+        },
+        {
+          "text": "Services",
+          "href": "https://est.com.au/services/"
+        }
+      ]
+    }
+  },
+  "team": {
+    "fullPageScreenshots": [
+      "full-page-desktop.png",
+      "full-page-tablet.png",
+      "full-page-mobile.png"
+    ],
+    "sectionScreenshots": [],
+    "componentScreenshots": [
+      "component-nav-default.png",
+      "component-nav-dropdown-1.png",
+      "component-nav-dropdown-2.png",
+      "component-nav-dropdown-3.png",
+      "component-nav-dropdown-4.png",
+      "component-nav-dropdown-5.png",
+      "component-button-1.png",
+      "component-button-1-hover.png",
+      "component-button-2.png",
+      "component-button-2-hover.png",
+      "component-button-3.png",
+      "component-button-3-hover.png",
+      "component-accordion-1.png",
+      "component-accordion-1-hover.png"
+    ],
+    "content": {
+      "title": "Our Team | EST Financial Advisors & Property Experts",
+      "meta": "Meet the strategy‑first team delivering lending, property acquisition, and tax optimisation with clear accountability from first brief to measurable outcomes.",
+      "bodyText": "Free Consultation\nAbout Us\nOur Team\nOur Media\nSuccess Stories\nServices\nOur Team\n\nAt est, we bring the right people together. Investment specialists, mortgage experts, property advisors, and a team who keeps things moving. We’re more than just advisors. We work together as your strategy team, focused on helping you make smart, practical moves that actually lead somewhere. We focus on the essentials, making sure your plans stay on track and everything’s taken care of.\n\nPaul Hanna\nChief Executive Officer\nVictoria Holsten\nClient Relationship Manager\nRaphael Bove\nSenior Strategist\nSamuel Hanna\nOperations Manager\nCassandra Hanna\nQLD General Manager\nChris Vaughan\nSenior Strategist\nMichael Gee\nHead of Finance\nDominic Carbone\nHead of Law\nJames Peach\nAsset Acquisition Manager\nHans Schmid\nMarketing Strategist\nJustin Immanuelle\nDigital Media Designer\nSimon Liddle\nFinancial Advisor\nJim Calagis\nFinancial Needs Analyst\nCaitlin Sager\nParalegal\nMartin Fiay\nSales Specialist\nKarim Hallal\nBroker Assistant\nUmar Khan\nFinancial Needs Analyst\nCredit Guide\nPrivacy Policy\nFacebook-f\n \nYoutube\n \nInstagram\n \nTiktok\nHEAD OFFICE\nLevel 18,\n1 Castlereagh St,\nSydney, NSW 2000\nCONTACT US\nEnquiries@est.com.au\n1300 123 378\n\nAll strategies and information provided on this website are general advice only and does not take into consideration any of your personal circumstances. Please arrange an appointment to seek personal financial and taxation advice prior to acting on this information. Copyright @ 2025 EST FINANCIAL Pty Ltd ABN 30 611 799 850. All rights reserved.",
+      "sections": [
+        {
+          "index": 0,
+          "top": 0,
+          "height": 148,
+          "width": 1920,
+          "bg": "rgb(0, 0, 0)",
+          "classes": "elementor-element elementor-element-a63fae1 e-flex e-con-boxed e-con e-parent elementor-sticky elementor-sticky--effects e-lazyloaded elementor-sticky--active elementor-section--handles-inside",
+          "headings": [],
+          "text": "Free Consultation\nAbout Us\nOur Team\nOur Media\nSuccess Stories\nServices"
+        }
+      ],
+      "headings": [
+        {
+          "tag": "H2",
+          "text": "Our Team",
+          "font": "longhand-lp, sans-serif",
+          "size": "70px",
+          "weight": "600",
+          "color": "rgb(255, 255, 255)"
+        },
+        {
+          "tag": "H2",
+          "text": "Paul Hanna\nChief Executive Officer",
+          "font": "longhand-lp, sans-serif",
+          "size": "26px",
+          "weight": "600",
+          "color": "rgb(51, 51, 51)"
+        },
+        {
+          "tag": "H2",
+          "text": "Victoria Holsten\nClient Relationship Manager",
+          "font": "longhand-lp, sans-serif",
+          "size": "26px",
+          "weight": "600",
+          "color": "rgb(51, 51, 51)"
+        },
+        {
+          "tag": "H2",
+          "text": "Raphael Bove\nSenior Strategist",
+          "font": "longhand-lp, sans-serif",
+          "size": "26px",
+          "weight": "600",
+          "color": "rgb(51, 51, 51)"
+        },
+        {
+          "tag": "H2",
+          "text": "Samuel Hanna\nOperations Manager",
+          "font": "longhand-lp, sans-serif",
+          "size": "26px",
+          "weight": "600",
+          "color": "rgb(51, 51, 51)"
+        },
+        {
+          "tag": "H2",
+          "text": "Cassandra Hanna\nQLD General Manager",
+          "font": "longhand-lp, sans-serif",
+          "size": "26px",
+          "weight": "600",
+          "color": "rgb(51, 51, 51)"
+        },
+        {
+          "tag": "H2",
+          "text": "Chris Vaughan\nSenior Strategist",
+          "font": "longhand-lp, sans-serif",
+          "size": "26px",
+          "weight": "600",
+          "color": "rgb(51, 51, 51)"
+        },
+        {
+          "tag": "H2",
+          "text": "Michael Gee\nHead of Finance",
+          "font": "longhand-lp, sans-serif",
+          "size": "26px",
+          "weight": "600",
+          "color": "rgb(51, 51, 51)"
+        },
+        {
+          "tag": "H2",
+          "text": "Dominic Carbone\nHead of Law",
+          "font": "longhand-lp, sans-serif",
+          "size": "26px",
+          "weight": "600",
+          "color": "rgb(51, 51, 51)"
+        },
+        {
+          "tag": "H2",
+          "text": "James Peach\nAsset Acquisition Manager",
+          "font": "longhand-lp, sans-serif",
+          "size": "26px",
+          "weight": "600",
+          "color": "rgb(51, 51, 51)"
+        },
+        {
+          "tag": "H2",
+          "text": "Hans Schmid\nMarketing Strategist",
+          "font": "longhand-lp, sans-serif",
+          "size": "26px",
+          "weight": "600",
+          "color": "rgb(51, 51, 51)"
+        },
+        {
+          "tag": "H2",
+          "text": "Justin Immanuelle\nDigital Media Designer",
+          "font": "longhand-lp, sans-serif",
+          "size": "26px",
+          "weight": "600",
+          "color": "rgb(51, 51, 51)"
+        },
+        {
+          "tag": "H2",
+          "text": "Simon Liddle\nFinancial Advisor",
+          "font": "longhand-lp, sans-serif",
+          "size": "26px",
+          "weight": "600",
+          "color": "rgb(51, 51, 51)"
+        },
+        {
+          "tag": "H2",
+          "text": "Jim Calagis\nFinancial Needs Analyst",
+          "font": "longhand-lp, sans-serif",
+          "size": "26px",
+          "weight": "600",
+          "color": "rgb(51, 51, 51)"
+        },
+        {
+          "tag": "H2",
+          "text": "Caitlin Sager\nParalegal",
+          "font": "longhand-lp, sans-serif",
+          "size": "26px",
+          "weight": "600",
+          "color": "rgb(51, 51, 51)"
+        },
+        {
+          "tag": "H2",
+          "text": "Martin Fiay\nSales Specialist",
+          "font": "longhand-lp, sans-serif",
+          "size": "26px",
+          "weight": "600",
+          "color": "rgb(51, 51, 51)"
+        },
+        {
+          "tag": "H2",
+          "text": "Karim Hallal\nBroker Assistant",
+          "font": "longhand-lp, sans-serif",
+          "size": "26px",
+          "weight": "600",
+          "color": "rgb(51, 51, 51)"
+        },
+        {
+          "tag": "H2",
+          "text": "Umar Khan\nFinancial Needs Analyst",
+          "font": "longhand-lp, sans-serif",
+          "size": "26px",
+          "weight": "600",
+          "color": "rgb(51, 51, 51)"
+        },
+        {
+          "tag": "H2",
+          "text": "HEAD OFFICE",
+          "font": "Roboto, sans-serif",
+          "size": "18px",
+          "weight": "600",
+          "color": "rgb(194, 0, 0)"
+        },
+        {
+          "tag": "H2",
+          "text": "Level 18,\n1 Castlereagh St,\nSydney, NSW 2000",
+          "font": "Roboto, sans-serif",
+          "size": "17px",
+          "weight": "400",
+          "color": "rgb(0, 0, 0)"
+        },
+        {
+          "tag": "H2",
+          "text": "CONTACT US",
+          "font": "Roboto, sans-serif",
+          "size": "18px",
+          "weight": "600",
+          "color": "rgb(194, 0, 0)"
+        },
+        {
+          "tag": "H2",
+          "text": "Enquiries@est.com.au",
+          "font": "Roboto, sans-serif",
+          "size": "17px",
+          "weight": "400",
+          "color": "rgb(0, 0, 0)"
+        },
+        {
+          "tag": "H2",
+          "text": "1300 123 378",
+          "font": "Roboto, sans-serif",
+          "size": "17px",
+          "weight": "400",
+          "color": "rgb(0, 0, 0)"
+        }
+      ],
+      "paragraphs": [
+        "At est, we bring the right people together. Investment specialists, mortgage experts, property advisors, and a team who keeps things moving. We’re more than just advisors. We work together as your strategy team, focused on helping you make smart, practical moves that actually lead somewhere. We focus on the essentials, making sure your plans stay on track and everything’s taken care of.",
+        "All strategies and information provided on this website are general advice only and does not take into consideration any of your personal circumstances. Please arrange an appointment to seek personal financial and taxation advice prior to acting on this information. Copyright @ 2025 EST FINANCIAL Pty Ltd ABN 30 611 799 850. All rights reserved."
+      ],
+      "links": [
+        {
+          "text": "Free Consultation",
+          "href": "https://est.com.au/welcome/"
+        },
+        {
+          "text": "About Us",
+          "href": "https://est.com.au/about-est-financial/"
+        },
+        {
+          "text": "Our Team",
+          "href": "https://est.com.au/team/"
+        },
+        {
+          "text": "Our Media",
+          "href": "https://est.com.au/our-blog/"
+        },
+        {
+          "text": "Success Stories",
+          "href": "https://est.com.au/#reviews"
+        },
+        {
+          "text": "Services",
+          "href": "https://est.com.au/services/"
+        },
+        {
+          "text": "About Us",
+          "href": "https://est.com.au/about-est-financial/"
+        },
+        {
+          "text": "Our Team",
+          "href": "https://est.com.au/team/"
+        },
+        {
+          "text": "Our Media",
+          "href": "https://est.com.au/our-blog/"
+        },
+        {
+          "text": "Success Stories",
+          "href": "https://est.com.au/#reviews"
+        },
+        {
+          "text": "Services",
+          "href": "https://est.com.au/services/"
+        },
+        {
+          "text": "About Us",
+          "href": "https://est.com.au/about-est-financial/"
+        },
+        {
+          "text": "Our Team",
+          "href": "https://est.com.au/team/"
+        },
+        {
+          "text": "Our Media",
+          "href": "https://est.com.au/our-blog/"
+        },
+        {
+          "text": "Success Stories",
+          "href": "https://est.com.au/#reviews"
+        },
+        {
+          "text": "Services",
+          "href": "https://est.com.au/services/"
+        },
+        {
+          "text": "Credit Guide",
+          "href": "https://est.com.au/credit-guide/"
+        },
+        {
+          "text": "Privacy Policy",
+          "href": "https://est.com.au/privacy-policy/"
+        },
+        {
+          "text": "Facebook-f",
+          "href": "https://www.facebook.com/profile.php?id=61572661042298"
+        },
+        {
+          "text": "Youtube",
+          "href": "https://m.youtube.com/channel/UCvx_l-nPr3zDPKu9TVI1qTw"
+        },
+        {
+          "text": "Instagram",
+          "href": "https://est.com.au/wp-content/uploads/2025/04/140x350-est-logo.svg"
+        },
+        {
+          "text": "Tiktok",
+          "href": "http://tiktok.com/@estfinanceofficial"
+        },
+        {
+          "text": "Enquiries@est.com.au",
+          "href": "mailto:%20enquiries@est.com.au"
+        },
+        {
+          "text": "1300 123 378",
+          "href": "tel:%201300%20123%20378"
+        }
+      ],
+      "images": [
+        {
+          "src": "https://est.com.au/wp-content/uploads/2025/01/ff_03.webp",
+          "alt": "",
+          "width": 575,
+          "height": 248
+        },
+        {
+          "src": "https://est.com.au/wp-content/uploads/2025/01/ff_03.webp",
+          "alt": "",
+          "width": 575,
+          "height": 248
+        },
+        {
+          "src": "https://est.com.au/wp-content/uploads/2025/07/arrow.svg",
+          "alt": "arrow",
+          "width": 2691,
+          "height": 2839
+        },
+        {
+          "src": "https://est.com.au/wp-content/uploads/2025/09/untitled-design-4-2.webp",
+          "alt": "",
+          "width": 1080,
+          "height": 1080
+        },
+        {
+          "src": "https://est.com.au/wp-content/uploads/2025/10/untitled-design-13.webp",
+          "alt": "",
+          "width": 1080,
+          "height": 1080
+        },
+        {
+          "src": "https://est.com.au/wp-content/uploads/2025/09/8.webp",
+          "alt": "",
+          "width": 1080,
+          "height": 1080
+        },
+        {
+          "src": "https://est.com.au/wp-content/uploads/2025/09/4-1.webp",
+          "alt": "",
+          "width": 1080,
+          "height": 1080
+        },
+        {
+          "src": "https://est.com.au/wp-content/uploads/2025/03/19-1-e1757632539343.webp",
+          "alt": "",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "src": "https://est.com.au/wp-content/uploads/2025/10/untitled-design-11.webp",
+          "alt": "",
+          "width": 1080,
+          "height": 1080
+        },
+        {
+          "src": "https://est.com.au/wp-content/uploads/2025/09/9-1.webp",
+          "alt": "",
+          "width": 1080,
+          "height": 1080
+        },
+        {
+          "src": "https://est.com.au/wp-content/uploads/2025/09/untitled-design-5.webp",
+          "alt": "",
+          "width": 1080,
+          "height": 1080
+        },
+        {
+          "src": "https://est.com.au/wp-content/uploads/2025/10/untitled-design-7.webp",
+          "alt": "",
+          "width": 1080,
+          "height": 1080
+        },
+        {
+          "src": "https://est.com.au/wp-content/uploads/2025/09/untitled-design-4.webp",
+          "alt": "",
+          "width": 1080,
+          "height": 1080
+        },
+        {
+          "src": "https://est.com.au/wp-content/uploads/2025/09/marketing-manger-justin-imanuelle-1.webp",
+          "alt": "",
+          "width": 1080,
+          "height": 1080
+        },
+        {
+          "src": "https://est.com.au/wp-content/uploads/2025/09/6.webp",
+          "alt": "",
+          "width": 1080,
+          "height": 1080
+        },
+        {
+          "src": "https://est.com.au/wp-content/uploads/2025/09/financial-needs-analysis-consultant-jim-calagis.webp",
+          "alt": "",
+          "width": 1080,
+          "height": 1080
+        },
+        {
+          "src": "https://est.com.au/wp-content/uploads/2025/03/14-2.webp",
+          "alt": "Martin Fiay",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "src": "https://est.com.au/wp-content/uploads/2025/09/untitled-design-3.webp",
+          "alt": "",
+          "width": 1080,
+          "height": 1080
+        },
+        {
+          "src": "https://est.com.au/wp-content/uploads/2025/09/karim-hallal-1.webp",
+          "alt": "",
+          "width": 1080,
+          "height": 1080
+        },
+        {
+          "src": "https://est.com.au/wp-content/uploads/2025/10/untitled-design-5.webp",
+          "alt": "",
+          "width": 1080,
+          "height": 1080
+        },
+        {
+          "src": "https://est.com.au/wp-content/uploads/2025/04/140x350-est-logo.svg",
+          "alt": "",
+          "width": 350,
+          "height": 140
+        }
+      ],
+      "buttons": [],
+      "styles": {
+        "bodyFont": "\"Open Sans\", Arial, sans-serif",
+        "bodyColor": "rgb(102, 102, 102)",
+        "bodyBg": "rgb(255, 255, 255)"
+      },
+      "navItems": [
+        {
+          "text": "About Us",
+          "href": "https://est.com.au/about-est-financial/"
+        },
+        {
+          "text": "Our Team",
+          "href": "https://est.com.au/team/"
+        },
+        {
+          "text": "Our Media",
+          "href": "https://est.com.au/our-blog/"
+        },
+        {
+          "text": "Success Stories",
+          "href": "https://est.com.au/#reviews"
+        },
+        {
+          "text": "Services",
+          "href": "https://est.com.au/services/"
+        },
+        {
+          "text": "About Us",
+          "href": "https://est.com.au/about-est-financial/"
+        },
+        {
+          "text": "Our Team",
+          "href": "https://est.com.au/team/"
+        },
+        {
+          "text": "Our Media",
+          "href": "https://est.com.au/our-blog/"
+        },
+        {
+          "text": "Success Stories",
+          "href": "https://est.com.au/#reviews"
+        },
+        {
+          "text": "Services",
+          "href": "https://est.com.au/services/"
+        },
+        {
+          "text": "About Us",
+          "href": "https://est.com.au/about-est-financial/"
+        },
+        {
+          "text": "Our Team",
+          "href": "https://est.com.au/team/"
+        },
+        {
+          "text": "Our Media",
+          "href": "https://est.com.au/our-blog/"
+        },
+        {
+          "text": "Success Stories",
+          "href": "https://est.com.au/#reviews"
+        },
+        {
+          "text": "Services",
+          "href": "https://est.com.au/services/"
+        }
+      ]
+    }
+  },
+  "services": {
+    "fullPageScreenshots": [
+      "full-page-desktop.png",
+      "full-page-tablet.png",
+      "full-page-mobile.png"
+    ],
+    "sectionScreenshots": [],
+    "componentScreenshots": [
+      "component-nav-default.png",
+      "component-button-1.png",
+      "component-button-1-hover.png",
+      "component-blog-post-1.png",
+      "component-blog-post-1-hover.png",
+      "component-blog-post-2.png",
+      "component-blog-post-2-hover.png",
+      "component-blog-post-3.png",
+      "component-blog-post-3-hover.png",
+      "component-accordion-1.png",
+      "component-accordion-1-hover.png"
+    ],
+    "content": {
+      "title": "Services | Lending, Property, Tax & Legal | EST Financial",
+      "meta": "One coordinated team for mortgage broking, investment acquisition, tax strategy and legal execution, designed to compound results and remove friction.",
+      "bodyText": "Free Consultation\nAbout Us\nOur Team\nOur Media\nSuccess Stories\nServices\nServices\nFINANCE & MORTGAGE BROKING\n\nWe don’t just organise loans, we structure smart finance that works with your bigger picture, not against it.\n\n\n\nINVESTMENT ACQUISITION\n\nWe help you find, assess and secure quality investments that fit your goals, not just what’s available, but what’s right.\n\n\n\nASSET MANAGEMENT\n\nManaging your portfolio isn’t a task, it’s a strategy. We work to grow your assets while protecting what matters most.\n\n\n\nLEGAL SERVICES\n\nOur legal partners keep your path clear, from contracts to settlements, so you can move forward with confidence.\n\n\n\nTAX ACCOUNTING\n\nWe simplify the complex, giving you tax strategies that make sense, save money and support your broader plan.\n\n\n\nFINANCIAL PLANNING\n\nWe don’t just give advice, we walk with you. At every life stage, we build strategies that actually mean something.\n\nCredit Guide\nPrivacy Policy\nFacebook-f\n \nYoutube\n \nInstagram\n \nTiktok\nHEAD OFFICE\nLevel 18,\n1 Castlereagh St,\nSydney, NSW 2000\nCONTACT US\nEnquiries@est.com.au\n1300 123 378\n\nAll strategies and information provided on this website are general advice only and does not take into consideration any of your personal circumstances. Please arrange an appointment to seek personal financial and taxation advice prior to acting on this information. Copyright @ 2025 EST FINANCIAL Pty Ltd ABN 30 611 799 850. All rights reserved.",
+      "sections": [],
+      "headings": [
+        {
+          "tag": "H2",
+          "text": "Services",
+          "font": "longhand-lp, sans-serif",
+          "size": "70px",
+          "weight": "800",
+          "color": "rgb(255, 255, 255)"
+        },
+        {
+          "tag": "H2",
+          "text": "FINANCE & MORTGAGE BROKING",
+          "font": "Arial",
+          "size": "32px",
+          "weight": "700",
+          "color": "rgb(51, 51, 51)"
+        },
+        {
+          "tag": "H2",
+          "text": "INVESTMENT ACQUISITION",
+          "font": "Arial",
+          "size": "32px",
+          "weight": "700",
+          "color": "rgb(51, 51, 51)"
+        },
+        {
+          "tag": "H2",
+          "text": "ASSET MANAGEMENT",
+          "font": "Arial",
+          "size": "32px",
+          "weight": "700",
+          "color": "rgb(51, 51, 51)"
+        },
+        {
+          "tag": "H2",
+          "text": "LEGAL SERVICES",
+          "font": "Arial",
+          "size": "32px",
+          "weight": "700",
+          "color": "rgb(51, 51, 51)"
+        },
+        {
+          "tag": "H2",
+          "text": "TAX ACCOUNTING",
+          "font": "Arial",
+          "size": "32px",
+          "weight": "700",
+          "color": "rgb(51, 51, 51)"
+        },
+        {
+          "tag": "H2",
+          "text": "FINANCIAL PLANNING",
+          "font": "Arial",
+          "size": "32px",
+          "weight": "700",
+          "color": "rgb(51, 51, 51)"
+        },
+        {
+          "tag": "H2",
+          "text": "HEAD OFFICE",
+          "font": "Roboto, sans-serif",
+          "size": "18px",
+          "weight": "600",
+          "color": "rgb(194, 0, 0)"
+        },
+        {
+          "tag": "H2",
+          "text": "Level 18,\n1 Castlereagh St,\nSydney, NSW 2000",
+          "font": "Roboto, sans-serif",
+          "size": "17px",
+          "weight": "400",
+          "color": "rgb(0, 0, 0)"
+        },
+        {
+          "tag": "H2",
+          "text": "CONTACT US",
+          "font": "Roboto, sans-serif",
+          "size": "18px",
+          "weight": "600",
+          "color": "rgb(194, 0, 0)"
+        },
+        {
+          "tag": "H2",
+          "text": "Enquiries@est.com.au",
+          "font": "Roboto, sans-serif",
+          "size": "17px",
+          "weight": "400",
+          "color": "rgb(0, 0, 0)"
+        },
+        {
+          "tag": "H2",
+          "text": "1300 123 378",
+          "font": "Roboto, sans-serif",
+          "size": "17px",
+          "weight": "400",
+          "color": "rgb(0, 0, 0)"
+        }
+      ],
+      "paragraphs": [
+        "We don’t just organise loans, we structure smart finance that works with your bigger picture, not against it.",
+        "We help you find, assess and secure quality investments that fit your goals, not just what’s available, but what’s right.",
+        "Managing your portfolio isn’t a task, it’s a strategy. We work to grow your assets while protecting what matters most.",
+        "Our legal partners keep your path clear, from contracts to settlements, so you can move forward with confidence.",
+        "We simplify the complex, giving you tax strategies that make sense, save money and support your broader plan.",
+        "We don’t just give advice, we walk with you. At every life stage, we build strategies that actually mean something.",
+        "All strategies and information provided on this website are general advice only and does not take into consideration any of your personal circumstances. Please arrange an appointment to seek personal financial and taxation advice prior to acting on this information. Copyright @ 2025 EST FINANCIAL Pty Ltd ABN 30 611 799 850. All rights reserved."
+      ],
+      "links": [
+        {
+          "text": "About Us",
+          "href": "https://est.com.au/about-est-financial/"
+        },
+        {
+          "text": "Our Team",
+          "href": "https://est.com.au/team/"
+        },
+        {
+          "text": "Our Media",
+          "href": "https://est.com.au/our-blog/"
+        },
+        {
+          "text": "Success Stories",
+          "href": "https://est.com.au/#reviews"
+        },
+        {
+          "text": "Services",
+          "href": "https://est.com.au/services/"
+        },
+        {
+          "text": "About Us",
+          "href": "https://est.com.au/about-est-financial/"
+        },
+        {
+          "text": "Our Team",
+          "href": "https://est.com.au/team/"
+        },
+        {
+          "text": "Our Media",
+          "href": "https://est.com.au/our-blog/"
+        },
+        {
+          "text": "Success Stories",
+          "href": "https://est.com.au/#reviews"
+        },
+        {
+          "text": "Services",
+          "href": "https://est.com.au/services/"
+        },
+        {
+          "text": "Free Consultation",
+          "href": "https://est.com.au/welcome/"
+        },
+        {
+          "text": "Free Consultation",
+          "href": "https://est.com.au/welcome/"
+        },
+        {
+          "text": "About Us",
+          "href": "https://est.com.au/about-est-financial/"
+        },
+        {
+          "text": "Our Team",
+          "href": "https://est.com.au/team/"
+        },
+        {
+          "text": "Our Media",
+          "href": "https://est.com.au/our-blog/"
+        },
+        {
+          "text": "Success Stories",
+          "href": "https://est.com.au/#reviews"
+        },
+        {
+          "text": "Services",
+          "href": "https://est.com.au/services/"
+        },
+        {
+          "text": "About Us",
+          "href": "https://est.com.au/about-est-financial/"
+        },
+        {
+          "text": "Our Team",
+          "href": "https://est.com.au/team/"
+        },
+        {
+          "text": "Our Media",
+          "href": "https://est.com.au/our-blog/"
+        },
+        {
+          "text": "Success Stories",
+          "href": "https://est.com.au/#reviews"
+        },
+        {
+          "text": "Services",
+          "href": "https://est.com.au/services/"
+        },
+        {
+          "text": "FINANCE & MORTGAGE BROKING\n\nWe don’t just organise loans, we structure smart finance that works with your bigger picture, not against it.",
+          "href": "https://est.com.au/finance-mortgage-broking/"
+        },
+        {
+          "text": "INVESTMENT ACQUISITION\n\nWe help you find, assess and secure quality investments that fit your goals, not just what’s available, but what’s right.",
+          "href": "https://est.com.au/investment-acquisition/"
+        },
+        {
+          "text": "ASSET MANAGEMENT\n\nManaging your portfolio isn’t a task, it’s a strategy. We work to grow your assets while protecting what matters most.",
+          "href": "https://est.com.au/asset-management/"
+        },
+        {
+          "text": "LEGAL SERVICES\n\nOur legal partners keep your path clear, from contracts to settlements, so you can move forward with confidence.",
+          "href": "https://est.com.au/legal-services-2/"
+        },
+        {
+          "text": "TAX ACCOUNTING\n\nWe simplify the complex, giving you tax strategies that make sense, save money and support your broader plan.",
+          "href": "https://est.com.au/tax-services/"
+        },
+        {
+          "text": "FINANCIAL PLANNING\n\nWe don’t just give advice, we walk with you. At every life stage, we build strategies that actually mean something.",
+          "href": "https://est.com.au/financial-services/"
+        },
+        {
+          "text": "Credit Guide",
+          "href": "https://est.com.au/credit-guide/"
+        },
+        {
+          "text": "Privacy Policy",
+          "href": "https://est.com.au/privacy-policy/"
+        },
+        {
+          "text": "Facebook-f",
+          "href": "https://www.facebook.com/profile.php?id=61572661042298"
+        },
+        {
+          "text": "Youtube",
+          "href": "https://m.youtube.com/channel/UCvx_l-nPr3zDPKu9TVI1qTw"
+        },
+        {
+          "text": "Instagram",
+          "href": "https://est.com.au/wp-content/uploads/2025/04/140x350-est-logo.svg"
+        },
+        {
+          "text": "Tiktok",
+          "href": "http://tiktok.com/@estfinanceofficial"
+        },
+        {
+          "text": "Enquiries@est.com.au",
+          "href": "mailto:%20enquiries@est.com.au"
+        },
+        {
+          "text": "1300 123 378",
+          "href": "tel:%201300%20123%20378"
+        }
+      ],
+      "images": [
+        {
+          "src": "https://est.com.au/wp-content/uploads/2024/12/estsvg.svg",
+          "alt": "",
+          "width": 300,
+          "height": 125
+        },
+        {
+          "src": "https://est.com.au/wp-content/uploads/2025/01/ff_03.webp",
+          "alt": "",
+          "width": 575,
+          "height": 248
+        },
+        {
+          "src": "https://est.com.au/wp-content/uploads/2025/07/arrow.svg",
+          "alt": "arrow",
+          "width": 2691,
+          "height": 2839
+        },
+        {
+          "src": "https://est.com.au/wp-content/uploads/2025/07/close-up-woman-s-hand-giving-house-key-man-wooden-table-scaled.webp",
+          "alt": "Finance & Mortgage Broking",
+          "width": 2560,
+          "height": 1707
+        },
+        {
+          "src": "https://est.com.au/wp-content/uploads/2025/07/close-up-businessmen-working-company-financial-report-white-desk-scaled.webp",
+          "alt": "Investment Acquisition",
+          "width": 2560,
+          "height": 1707
+        },
+        {
+          "src": "https://est.com.au/wp-content/uploads/2025/07/high-angle-man-working-as-real-estate-agent-scaled.webp",
+          "alt": "",
+          "width": 2560,
+          "height": 1944
+        },
+        {
+          "src": "https://est.com.au/wp-content/uploads/2025/07/closeup-shot-person-writing-book-with-gavel-table-scaled.webp",
+          "alt": "Legal Services",
+          "width": 2560,
+          "height": 1707
+        },
+        {
+          "src": "https://est.com.au/wp-content/uploads/2025/07/businesswoman-with-glasses-working-hard-scaled.webp",
+          "alt": "Tax Acco",
+          "width": 2560,
+          "height": 1707
+        },
+        {
+          "src": "https://est.com.au/wp-content/uploads/2025/07/smiling-woman-showing-male-colleague-tablet-screen-cafe-outdoors-scaled.webp",
+          "alt": "Financial Advice",
+          "width": 2560,
+          "height": 1709
+        },
+        {
+          "src": "https://est.com.au/wp-content/uploads/2025/04/140x350-est-logo.svg",
+          "alt": "",
+          "width": 350,
+          "height": 140
+        }
+      ],
+      "buttons": [],
+      "styles": {
+        "bodyFont": "\"Open Sans\", Arial, sans-serif",
+        "bodyColor": "rgb(255, 255, 255)",
+        "bodyBg": "rgb(248, 245, 249)"
+      },
+      "navItems": [
+        {
+          "text": "About Us",
+          "href": "https://est.com.au/about-est-financial/"
+        },
+        {
+          "text": "Our Team",
+          "href": "https://est.com.au/team/"
+        },
+        {
+          "text": "Our Media",
+          "href": "https://est.com.au/our-blog/"
+        },
+        {
+          "text": "Success Stories",
+          "href": "https://est.com.au/#reviews"
+        },
+        {
+          "text": "Services",
+          "href": "https://est.com.au/services/"
+        },
+        {
+          "text": "About Us",
+          "href": "https://est.com.au/about-est-financial/"
+        },
+        {
+          "text": "Our Team",
+          "href": "https://est.com.au/team/"
+        },
+        {
+          "text": "Our Media",
+          "href": "https://est.com.au/our-blog/"
+        },
+        {
+          "text": "Success Stories",
+          "href": "https://est.com.au/#reviews"
+        },
+        {
+          "text": "Services",
+          "href": "https://est.com.au/services/"
+        },
+        {
+          "text": "Free Consultation",
+          "href": "https://est.com.au/welcome/"
+        },
+        {
+          "text": "About Us",
+          "href": "https://est.com.au/about-est-financial/"
+        },
+        {
+          "text": "Our Team",
+          "href": "https://est.com.au/team/"
+        },
+        {
+          "text": "Our Media",
+          "href": "https://est.com.au/our-blog/"
+        },
+        {
+          "text": "Success Stories",
+          "href": "https://est.com.au/#reviews"
+        },
+        {
+          "text": "Services",
+          "href": "https://est.com.au/services/"
+        },
+        {
+          "text": "About Us",
+          "href": "https://est.com.au/about-est-financial/"
+        },
+        {
+          "text": "Our Team",
+          "href": "https://est.com.au/team/"
+        },
+        {
+          "text": "Our Media",
+          "href": "https://est.com.au/our-blog/"
+        },
+        {
+          "text": "Success Stories",
+          "href": "https://est.com.au/#reviews"
+        },
+        {
+          "text": "Services",
+          "href": "https://est.com.au/services/"
+        }
+      ]
+    }
+  },
+  "blog": {
+    "fullPageScreenshots": [
+      "full-page-desktop.png",
+      "full-page-tablet.png",
+      "full-page-mobile.png"
+    ],
+    "sectionScreenshots": [],
+    "componentScreenshots": [
+      "component-nav-default.png",
+      "component-button-1.png",
+      "component-button-1-hover.png",
+      "component-card-1.png",
+      "component-card-1-hover.png",
+      "component-card-2.png",
+      "component-card-2-hover.png",
+      "component-card-3.png",
+      "component-card-3-hover.png",
+      "component-blog-post-1.png",
+      "component-blog-post-1-hover.png",
+      "component-blog-post-2.png",
+      "component-blog-post-2-hover.png",
+      "component-blog-post-3.png",
+      "component-blog-post-3-hover.png",
+      "component-accordion-1.png",
+      "component-accordion-1-hover.png"
+    ],
+    "content": {
+      "title": "Insights | EST Blog on Lending, Property & Tax Strategy",
+      "meta": "Actionable analysis on rates, borrowing capacity, asset selection and tax tactics for Australian households and investors. Fresh perspectives from EST advisers.",
+      "bodyText": "Free Consultation\nAbout Us\nOur Team\nOur Media\nSuccess Stories\nServices\nNewest Media Post\nBlog Posts\nSort\nNewest → Oldest\nOldest → Newest\nA → Z\nZ → A\nApply\nPPR vs Investment Property\nREAD MORE »\n3 November 2025  No Comments\nFixed vs. Variable: The Ultimate Home Loan Showdown\nREAD MORE »\n29 October 2025  No Comments\nNavigate the Super Storm: What Jim Chalmers’ Tax Overhaul Means for Your Wealth Journey\nREAD MORE »\n16 October 2025  No Comments\nFrom Credit Score to NSR: Navigating Sydney’s Mortgage Landscape in 2025\nREAD MORE »\n7 October 2025  No Comments\nFast Track to Homeownership Trap from 5% Deposit Dream\nREAD MORE »\n2 October 2025  No Comments\nWhy Emergency Funds Matter Before You Invest\nREAD MORE »\n30 September 2025  No Comments\nSteps to Navigate the Mortgage Maze for Your Dream Aussie Life\nREAD MORE »\n25 September 2025  No Comments\nFew Ways of Protecting Your Super in a Shifting Landscape\nREAD MORE »\n23 September 2025  No Comments\nNavigating the Economic Tides of Australia’s Consumer Sentiment in Focus\nREAD MORE »\n18 September 2025  No Comments\nSocials Posts\nCase Studies\nHow we helped a high earner to accelerate his portfolio\nREAD MORE »\n29 January 2026  No Comments\nFrom Valuation Shortfall to Settlement Success: The SMSF Property Reset that Cut Price, Debt and Repayments.\nREAD MORE »\n4 November 2025  No Comments\nHow One Family Used Smart Debt Restructuring to Kickstart Their Investment Portfolio\nREAD MORE »\n16 October 2025  No Comments\nHow EST Helped a Sydney Family Unlock $885K in Investment Potential Without Selling Their Home\nREAD MORE »\n29 September 2025  No Comments\nCredit Guide\nPrivacy Policy\nFacebook-f\n \nYoutube\n \nInstagram\n \nTiktok\nHEAD OFFICE\nLevel 18,\n1 Castlereagh St,\nSydney, NSW 2000\nCONTACT US\nEnquiries@est.com.au\n1300 123 378\n\nAll strategies and information provided on this website are general advice only and does not take into consideration any of your personal circumstances. Please arrange an appointment to seek personal financial and taxation advice prior to acting on this information. Copyright @ 2025 EST FINANCIAL Pty Ltd ABN 30 611 799 850. All rights reserved.",
+      "sections": [
+        {
+          "index": 2,
+          "top": 0,
+          "height": 148,
+          "width": 1920,
+          "bg": "rgb(0, 0, 0)",
+          "classes": "elementor-element elementor-element-a63fae1 e-flex e-con-boxed e-con e-parent elementor-sticky elementor-sticky--effects e-lazyloaded elementor-sticky--active elementor-section--handles-inside",
+          "headings": [],
+          "text": "Free Consultation\nAbout Us\nOur Team\nOur Media\nSuccess Stories\nServices"
+        }
+      ],
+      "headings": [
+        {
+          "tag": "H2",
+          "text": "Newest Media Post",
+          "font": "longhand-lp, sans-serif",
+          "size": "70px",
+          "weight": "600",
+          "color": "rgb(255, 255, 255)"
+        },
+        {
+          "tag": "H2",
+          "text": "Blog Posts",
+          "font": "Roboto, sans-serif",
+          "size": "26px",
+          "weight": "600",
+          "color": "rgb(51, 51, 51)"
+        },
+        {
+          "tag": "H1",
+          "text": "PPR vs Investment Property",
+          "font": "Roboto, sans-serif",
+          "size": "18px",
+          "weight": "600",
+          "color": "rgb(255, 11, 11)"
+        },
+        {
+          "tag": "H1",
+          "text": "Fixed vs. Variable: The Ultimate Home Loan Showdown",
+          "font": "Roboto, sans-serif",
+          "size": "18px",
+          "weight": "600",
+          "color": "rgb(255, 11, 11)"
+        },
+        {
+          "tag": "H1",
+          "text": "Navigate the Super Storm: What Jim Chalmers’ Tax Overhaul Means for Your Wealth Journey",
+          "font": "Roboto, sans-serif",
+          "size": "18px",
+          "weight": "600",
+          "color": "rgb(255, 11, 11)"
+        },
+        {
+          "tag": "H1",
+          "text": "From Credit Score to NSR: Navigating Sydney’s Mortgage Landscape in 2025",
+          "font": "Roboto, sans-serif",
+          "size": "18px",
+          "weight": "600",
+          "color": "rgb(255, 11, 11)"
+        },
+        {
+          "tag": "H1",
+          "text": "Fast Track to Homeownership Trap from 5% Deposit Dream",
+          "font": "Roboto, sans-serif",
+          "size": "18px",
+          "weight": "600",
+          "color": "rgb(255, 11, 11)"
+        },
+        {
+          "tag": "H1",
+          "text": "Why Emergency Funds Matter Before You Invest",
+          "font": "Roboto, sans-serif",
+          "size": "18px",
+          "weight": "600",
+          "color": "rgb(255, 11, 11)"
+        },
+        {
+          "tag": "H1",
+          "text": "Steps to Navigate the Mortgage Maze for Your Dream Aussie Life",
+          "font": "Roboto, sans-serif",
+          "size": "18px",
+          "weight": "600",
+          "color": "rgb(255, 11, 11)"
+        },
+        {
+          "tag": "H1",
+          "text": "Few Ways of Protecting Your Super in a Shifting Landscape",
+          "font": "Roboto, sans-serif",
+          "size": "18px",
+          "weight": "600",
+          "color": "rgb(255, 11, 11)"
+        },
+        {
+          "tag": "H1",
+          "text": "Navigating the Economic Tides of Australia’s Consumer Sentiment in Focus",
+          "font": "Roboto, sans-serif",
+          "size": "18px",
+          "weight": "600",
+          "color": "rgb(255, 11, 11)"
+        },
+        {
+          "tag": "H2",
+          "text": "Socials Posts",
+          "font": "Roboto, sans-serif",
+          "size": "26px",
+          "weight": "600",
+          "color": "rgb(51, 51, 51)"
+        },
+        {
+          "tag": "H2",
+          "text": "Case Studies",
+          "font": "Roboto, sans-serif",
+          "size": "26px",
+          "weight": "600",
+          "color": "rgb(51, 51, 51)"
+        },
+        {
+          "tag": "H1",
+          "text": "How we helped a high earner to accelerate his portfolio",
+          "font": "Roboto, sans-serif",
+          "size": "18px",
+          "weight": "600",
+          "color": "rgb(255, 11, 11)"
+        },
+        {
+          "tag": "H1",
+          "text": "From Valuation Shortfall to Settlement Success: The SMSF Property Reset that Cut Price, Debt and Repayments.",
+          "font": "Roboto, sans-serif",
+          "size": "18px",
+          "weight": "600",
+          "color": "rgb(255, 11, 11)"
+        },
+        {
+          "tag": "H1",
+          "text": "How One Family Used Smart Debt Restructuring to Kickstart Their Investment Portfolio",
+          "font": "Roboto, sans-serif",
+          "size": "18px",
+          "weight": "600",
+          "color": "rgb(255, 11, 11)"
+        },
+        {
+          "tag": "H1",
+          "text": "How EST Helped a Sydney Family Unlock $885K in Investment Potential Without Selling Their Home",
+          "font": "Roboto, sans-serif",
+          "size": "18px",
+          "weight": "600",
+          "color": "rgb(255, 11, 11)"
+        },
+        {
+          "tag": "H2",
+          "text": "HEAD OFFICE",
+          "font": "Roboto, sans-serif",
+          "size": "18px",
+          "weight": "600",
+          "color": "rgb(194, 0, 0)"
+        },
+        {
+          "tag": "H2",
+          "text": "Level 18,\n1 Castlereagh St,\nSydney, NSW 2000",
+          "font": "Roboto, sans-serif",
+          "size": "17px",
+          "weight": "400",
+          "color": "rgb(0, 0, 0)"
+        },
+        {
+          "tag": "H2",
+          "text": "CONTACT US",
+          "font": "Roboto, sans-serif",
+          "size": "18px",
+          "weight": "600",
+          "color": "rgb(194, 0, 0)"
+        },
+        {
+          "tag": "H2",
+          "text": "Enquiries@est.com.au",
+          "font": "Roboto, sans-serif",
+          "size": "17px",
+          "weight": "400",
+          "color": "rgb(0, 0, 0)"
+        },
+        {
+          "tag": "H2",
+          "text": "1300 123 378",
+          "font": "Roboto, sans-serif",
+          "size": "17px",
+          "weight": "400",
+          "color": "rgb(0, 0, 0)"
+        }
+      ],
+      "paragraphs": [
+        "All strategies and information provided on this website are general advice only and does not take into consideration any of your personal circumstances. Please arrange an appointment to seek personal financial and taxation advice prior to acting on this information. Copyright @ 2025 EST FINANCIAL Pty Ltd ABN 30 611 799 850. All rights reserved."
+      ],
+      "links": [
+        {
+          "text": "About Us",
+          "href": "https://est.com.au/about-est-financial/"
+        },
+        {
+          "text": "Our Team",
+          "href": "https://est.com.au/team/"
+        },
+        {
+          "text": "Our Media",
+          "href": "https://est.com.au/our-blog/"
+        },
+        {
+          "text": "Success Stories",
+          "href": "https://est.com.au/#reviews"
+        },
+        {
+          "text": "Services",
+          "href": "https://est.com.au/services/"
+        },
+        {
+          "text": "About Us",
+          "href": "https://est.com.au/about-est-financial/"
+        },
+        {
+          "text": "Our Team",
+          "href": "https://est.com.au/team/"
+        },
+        {
+          "text": "Our Media",
+          "href": "https://est.com.au/our-blog/"
+        },
+        {
+          "text": "Success Stories",
+          "href": "https://est.com.au/#reviews"
+        },
+        {
+          "text": "Services",
+          "href": "https://est.com.au/services/"
+        },
+        {
+          "text": "Free Consultation",
+          "href": "https://est.com.au/welcome/"
+        },
+        {
+          "text": "Free Consultation",
+          "href": "https://est.com.au/welcome/"
+        },
+        {
+          "text": "About Us",
+          "href": "https://est.com.au/about-est-financial/"
+        },
+        {
+          "text": "Our Team",
+          "href": "https://est.com.au/team/"
+        },
+        {
+          "text": "Our Media",
+          "href": "https://est.com.au/our-blog/"
+        },
+        {
+          "text": "Success Stories",
+          "href": "https://est.com.au/#reviews"
+        },
+        {
+          "text": "Services",
+          "href": "https://est.com.au/services/"
+        },
+        {
+          "text": "About Us",
+          "href": "https://est.com.au/about-est-financial/"
+        },
+        {
+          "text": "Our Team",
+          "href": "https://est.com.au/team/"
+        },
+        {
+          "text": "Our Media",
+          "href": "https://est.com.au/our-blog/"
+        },
+        {
+          "text": "Success Stories",
+          "href": "https://est.com.au/#reviews"
+        },
+        {
+          "text": "Services",
+          "href": "https://est.com.au/services/"
+        },
+        {
+          "text": "About Us",
+          "href": "https://est.com.au/about-est-financial/"
+        },
+        {
+          "text": "Our Team",
+          "href": "https://est.com.au/team/"
+        },
+        {
+          "text": "Our Media",
+          "href": "https://est.com.au/our-blog/"
+        },
+        {
+          "text": "Success Stories",
+          "href": "https://est.com.au/#reviews"
+        },
+        {
+          "text": "Services",
+          "href": "https://est.com.au/services/"
+        },
+        {
+          "text": "PPR vs Investment Property",
+          "href": "https://est.com.au/ppr-vs-investment-property/"
+        },
+        {
+          "text": "READ MORE »",
+          "href": "https://est.com.au/ppr-vs-investment-property/"
+        },
+        {
+          "text": "Fixed vs. Variable: The Ultimate Home Loan Showdown",
+          "href": "https://est.com.au/fixed-vs-variable/"
+        },
+        {
+          "text": "READ MORE »",
+          "href": "https://est.com.au/fixed-vs-variable/"
+        },
+        {
+          "text": "Navigate the Super Storm: What Jim Chalmers’ Tax Overhaul Means for Your Wealth Journey",
+          "href": "https://est.com.au/navigate-jim-chalmers-tax/"
+        },
+        {
+          "text": "READ MORE »",
+          "href": "https://est.com.au/navigate-jim-chalmers-tax/"
+        },
+        {
+          "text": "From Credit Score to NSR: Navigating Sydney’s Mortgage Landscape in 2025",
+          "href": "https://est.com.au/from-credit-score-to-nsr-navigating-sydneys-mortgage-landscape-in-2025/"
+        },
+        {
+          "text": "READ MORE »",
+          "href": "https://est.com.au/from-credit-score-to-nsr-navigating-sydneys-mortgage-landscape-in-2025/"
+        },
+        {
+          "text": "Fast Track to Homeownership Trap from 5% Deposit Dream",
+          "href": "https://est.com.au/fast-track-homeownership-trap/"
+        },
+        {
+          "text": "READ MORE »",
+          "href": "https://est.com.au/fast-track-homeownership-trap/"
+        },
+        {
+          "text": "Why Emergency Funds Matter Before You Invest",
+          "href": "https://est.com.au/why-emergency-funds-matter/"
+        },
+        {
+          "text": "READ MORE »",
+          "href": "https://est.com.au/why-emergency-funds-matter/"
+        },
+        {
+          "text": "Steps to Navigate the Mortgage Maze for Your Dream Aussie Life",
+          "href": "https://est.com.au/steps-navigate-mortgage-maze/"
+        },
+        {
+          "text": "READ MORE »",
+          "href": "https://est.com.au/steps-navigate-mortgage-maze/"
+        },
+        {
+          "text": "Few Ways of Protecting Your Super in a Shifting Landscape",
+          "href": "https://est.com.au/few-protecting-your-super/"
+        },
+        {
+          "text": "READ MORE »",
+          "href": "https://est.com.au/few-protecting-your-super/"
+        },
+        {
+          "text": "Navigating the Economic Tides of Australia’s Consumer Sentiment in Focus",
+          "href": "https://est.com.au/navigating-the-consumer-sentiment-focus/"
+        },
+        {
+          "text": "READ MORE »",
+          "href": "https://est.com.au/navigating-the-consumer-sentiment-focus/"
+        },
+        {
+          "text": "How we helped a high earner to accelerate his portfolio",
+          "href": "https://est.com.au/how-we-heeped-a-high-earner-to-accelerate-his-portfolio/"
+        },
+        {
+          "text": "READ MORE »",
+          "href": "https://est.com.au/how-we-heeped-a-high-earner-to-accelerate-his-portfolio/"
+        },
+        {
+          "text": "From Valuation Shortfall to Settlement Success: The SMSF Property Reset that Cut Price, Debt and Repayments.",
+          "href": "https://est.com.au/from-valuation-shortfall-to-settlement-success-the-smsf-property-reset-that-cut-price-debt-and-repayments/"
+        },
+        {
+          "text": "READ MORE »",
+          "href": "https://est.com.au/from-valuation-shortfall-to-settlement-success-the-smsf-property-reset-that-cut-price-debt-and-repayments/"
+        },
+        {
+          "text": "How One Family Used Smart Debt Restructuring to Kickstart Their Investment Portfolio",
+          "href": "https://est.com.au/how-one-family-used-smart-debt-restructuring-to-kickstart-their-investment-portfolio/"
+        },
+        {
+          "text": "READ MORE »",
+          "href": "https://est.com.au/how-one-family-used-smart-debt-restructuring-to-kickstart-their-investment-portfolio/"
+        },
+        {
+          "text": "How EST Helped a Sydney Family Unlock $885K in Investment Potential Without Selling Their Home",
+          "href": "https://est.com.au/a-sydney-family-unlock-885k/"
+        },
+        {
+          "text": "READ MORE »",
+          "href": "https://est.com.au/a-sydney-family-unlock-885k/"
+        },
+        {
+          "text": "Credit Guide",
+          "href": "https://est.com.au/credit-guide/"
+        },
+        {
+          "text": "Privacy Policy",
+          "href": "https://est.com.au/privacy-policy/"
+        },
+        {
+          "text": "Facebook-f",
+          "href": "https://www.facebook.com/profile.php?id=61572661042298"
+        },
+        {
+          "text": "Youtube",
+          "href": "https://m.youtube.com/channel/UCvx_l-nPr3zDPKu9TVI1qTw"
+        },
+        {
+          "text": "Instagram",
+          "href": "https://est.com.au/wp-content/uploads/2025/04/140x350-est-logo.svg"
+        },
+        {
+          "text": "Tiktok",
+          "href": "http://tiktok.com/@estfinanceofficial"
+        },
+        {
+          "text": "Enquiries@est.com.au",
+          "href": "mailto:%20enquiries@est.com.au"
+        },
+        {
+          "text": "1300 123 378",
+          "href": "tel:%201300%20123%20378"
+        }
+      ],
+      "images": [
+        {
+          "src": "https://est.com.au/wp-content/uploads/2024/12/estsvg.svg",
+          "alt": "",
+          "width": 300,
+          "height": 125
+        },
+        {
+          "src": "https://est.com.au/wp-content/uploads/2025/01/ff_03.webp",
+          "alt": "",
+          "width": 575,
+          "height": 248
+        },
+        {
+          "src": "https://est.com.au/wp-content/uploads/2025/01/ff_03.webp",
+          "alt": "",
+          "width": 575,
+          "height": 248
+        },
+        {
+          "src": "https://est.com.au/wp-content/uploads/2025/04/140x350-est-logo.svg",
+          "alt": "",
+          "width": 350,
+          "height": 140
+        }
+      ],
+      "buttons": [
+        {
+          "text": "Apply",
+          "classes": ""
+        }
+      ],
+      "styles": {
+        "bodyFont": "\"Open Sans\", Arial, sans-serif",
+        "bodyColor": "rgb(102, 102, 102)",
+        "bodyBg": "rgb(255, 255, 255)"
+      },
+      "navItems": [
+        {
+          "text": "About Us",
+          "href": "https://est.com.au/about-est-financial/"
+        },
+        {
+          "text": "Our Team",
+          "href": "https://est.com.au/team/"
+        },
+        {
+          "text": "Our Media",
+          "href": "https://est.com.au/our-blog/"
+        },
+        {
+          "text": "Success Stories",
+          "href": "https://est.com.au/#reviews"
+        },
+        {
+          "text": "Services",
+          "href": "https://est.com.au/services/"
+        },
+        {
+          "text": "About Us",
+          "href": "https://est.com.au/about-est-financial/"
+        },
+        {
+          "text": "Our Team",
+          "href": "https://est.com.au/team/"
+        },
+        {
+          "text": "Our Media",
+          "href": "https://est.com.au/our-blog/"
+        },
+        {
+          "text": "Success Stories",
+          "href": "https://est.com.au/#reviews"
+        },
+        {
+          "text": "Services",
+          "href": "https://est.com.au/services/"
+        },
+        {
+          "text": "Free Consultation",
+          "href": "https://est.com.au/welcome/"
+        },
+        {
+          "text": "About Us",
+          "href": "https://est.com.au/about-est-financial/"
+        },
+        {
+          "text": "Our Team",
+          "href": "https://est.com.au/team/"
+        },
+        {
+          "text": "Our Media",
+          "href": "https://est.com.au/our-blog/"
+        },
+        {
+          "text": "Success Stories",
+          "href": "https://est.com.au/#reviews"
+        },
+        {
+          "text": "Services",
+          "href": "https://est.com.au/services/"
+        },
+        {
+          "text": "About Us",
+          "href": "https://est.com.au/about-est-financial/"
+        },
+        {
+          "text": "Our Team",
+          "href": "https://est.com.au/team/"
+        },
+        {
+          "text": "Our Media",
+          "href": "https://est.com.au/our-blog/"
+        },
+        {
+          "text": "Success Stories",
+          "href": "https://est.com.au/#reviews"
+        },
+        {
+          "text": "Services",
+          "href": "https://est.com.au/services/"
+        },
+        {
+          "text": "About Us",
+          "href": "https://est.com.au/about-est-financial/"
+        },
+        {
+          "text": "Our Team",
+          "href": "https://est.com.au/team/"
+        },
+        {
+          "text": "Our Media",
+          "href": "https://est.com.au/our-blog/"
+        },
+        {
+          "text": "Success Stories",
+          "href": "https://est.com.au/#reviews"
+        },
+        {
+          "text": "Services",
+          "href": "https://est.com.au/services/"
+        }
+      ]
+    }
+  }
+}

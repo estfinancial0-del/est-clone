@@ -55,8 +55,8 @@ export default function FinanceMortgagePage() {
           ============================================ */}
       <section className="relative flex min-h-[60vh] items-center justify-center bg-black px-[10px] py-[80px]">
         <div className="absolute inset-0">
-          <Image src="/images/bank-01.webp" alt="Finance background" fill className="object-cover object-center opacity-30" unoptimized />
-          <div className="absolute inset-0 bg-black/60" />
+          <Image src="/images/bank-01.webp" alt="Finance background" fill className="object-cover object-center opacity-10" unoptimized />
+          <div className="absolute inset-0 bg-black/85" />
         </div>
         <motion.div initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8 }} className="relative z-10 mx-auto max-w-[900px] text-center">
           <h1 className="mb-[20px] font-['Longhand'] text-[63px] font-bold leading-[1.1] text-white max-md:text-[40px]">

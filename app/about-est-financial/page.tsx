@@ -83,14 +83,14 @@ export default function AboutEstFinancialPage() {
                 {navLinks.map(({ label: link, href: linkHref }) => (
                   <a
                     key={link}
-                    href="#"
+                    href={linkHref}
                     className="border-b border-white/20 py-[13px] text-[24px] font-medium leading-[20px] text-white transition-all duration-[400ms] hover:text-[#C20000]"
                   >
                     {link}
                   </a>
                 ))}
                 <a
-                  href="#"
+                  href="/about-est-financial"
                   className="mt-[16px] self-start rounded-[6px] bg-[#E60000] px-[24px] py-[12px] text-[22px] font-extrabold leading-[22px] text-white transition-all duration-[400ms] hover:bg-white hover:text-[#E60000]"
                 >
                   Free Consultation
@@ -386,7 +386,7 @@ export default function AboutEstFinancialPage() {
           className="mt-[50px] flex justify-center"
         >
           <motion.a
-            href="#"
+            href="/about-est-financial"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.98 }}
             transition={{ duration: 0.3 }}
@@ -436,13 +436,13 @@ export default function AboutEstFinancialPage() {
             <div className="flex flex-col gap-[16px]">
               <div className="flex flex-col gap-[8px]">
                 <a
-                  href="#"
+                  href="/credit-guide"
                   className="text-[17px] font-normal leading-[21px] text-white hover:text-[#C20000]"
                 >
                   Credit Guide
                 </a>
                 <a
-                  href="#"
+                  href="/privacy-policy"
                   className="text-[17px] font-normal leading-[21px] text-white hover:text-[#C20000]"
                 >
                   Privacy Policy

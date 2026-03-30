@@ -142,12 +142,8 @@ export default function TeamPage() {
             {navLinks.map(({ label: link, href: linkHref }) => (
               <a
                 key={link}
-                href={link === "Our Team" ? "/clone/team" : "#"}
-                className={`px-[20px] py-[13px] text-[24px] font-semibold leading-[20px] transition-all duration-[400ms] ${
-                  link === "Our Team"
-                    ? "border border-[#C20000] text-[#C20000]"
-                    : "text-white hover:text-[#C20000]"
-                }`}
+                href={linkHref}
+                className="px-[20px] py-[13px] text-[24px] font-semibold leading-[20px] text-white transition-all duration-[400ms] hover:text-[#C20000]"
               >
                 {link}
               </a>
@@ -194,18 +190,14 @@ export default function TeamPage() {
                 {navLinks.map(({ label: link, href: linkHref }) => (
                   <a
                     key={link}
-                    href={link === "Our Team" ? "/clone/team" : "#"}
-                    className={`border-b border-white/20 py-[13px] text-[24px] font-medium leading-[20px] transition-all duration-[400ms] ${
-                      link === "Our Team"
-                        ? "text-[#C20000]"
-                        : "text-white hover:text-[#C20000]"
-                    }`}
+                    href={linkHref}
+                    className="border-b border-white/20 py-[13px] text-[24px] font-medium leading-[20px] text-white transition-all duration-[400ms] hover:text-[#C20000]"
                   >
                     {link}
                   </a>
                 ))}
                 <a
-                  href="#"
+                  href="/about-est-financial"
                   className="mt-[16px] self-start rounded-[6px] bg-[#E60000] px-[24px] py-[12px] text-[22px] font-extrabold leading-[22px] text-white transition-all duration-[400ms] hover:bg-white hover:text-[#E60000]"
                 >
                   Free Consultation
@@ -368,13 +360,13 @@ export default function TeamPage() {
             <div className="flex flex-col gap-[16px]">
               <div className="flex flex-col gap-[8px]">
                 <a
-                  href="#"
+                  href="/credit-guide"
                   className="text-[17px] font-normal leading-[21px] text-white hover:text-[#C20000]"
                 >
                   Credit Guide
                 </a>
                 <a
-                  href="#"
+                  href="/privacy-policy"
                   className="text-[17px] font-normal leading-[21px] text-white hover:text-[#C20000]"
                 >
                   Privacy Policy

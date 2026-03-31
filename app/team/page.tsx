@@ -326,8 +326,7 @@ export default function TeamPage() {
           ============================================ */}
       <footer className="bg-black px-[10px] py-[40px]">
         <div className="mx-auto max-w-[1240px]">
-          {/* Footer Nav Links */}
-          <div className="mb-[30px] flex flex-wrap items-center justify-center gap-[8px] border-b border-white/20 pb-[20px] md:justify-between">
+          <div className="mb-[30px] border-b border-white/20 pb-[20px]">
             <Image
               src="/images/logo.webp"
               alt="est Financial"
@@ -336,23 +335,6 @@ export default function TeamPage() {
               className="h-[47px] w-[109px] object-contain"
               unoptimized
             />
-            <div className="flex flex-wrap items-center gap-[4px]">
-              {navLinks.map(({ label: link, href: linkHref }) => (
-                <a
-                  key={link}
-                  href={linkHref}
-                  className="px-[12px] py-[8px] text-[16px] font-semibold leading-[20px] text-white transition-all duration-[400ms] hover:text-[#C20000]"
-                >
-                  {link}
-                </a>
-              ))}
-              <a
-                href="/about-est-financial"
-                className="ml-[8px] rounded-[6px] bg-[#E60000] px-[20px] py-[10px] text-[16px] font-extrabold leading-[16px] text-white transition-all duration-[400ms] hover:bg-white hover:text-[#E60000]"
-              >
-                Free Consultation
-              </a>
-            </div>
           </div>
 
           <div className="grid grid-cols-1 gap-[30px] md:grid-cols-3">

@@ -105,12 +105,8 @@ export default function TaxServicesPage() {
       {/* FOOTER */}
       <footer className="bg-black px-[10px] py-[40px]">
         <div className="mx-auto max-w-[1240px]">
-          <div className="mb-[30px] flex flex-wrap items-center justify-center gap-[8px] border-b border-white/20 pb-[20px] md:justify-between">
+          <div className="mb-[30px] border-b border-white/20 pb-[20px]">
             <Image src="/images/logo.webp" alt="est Financial" width={109} height={47} className="h-[47px] w-[109px] object-contain" unoptimized />
-            <div className="flex flex-wrap items-center gap-[4px]">
-              {navLinks.map(({ label: link, href: linkHref }) => (<a key={link} href={linkHref} className="px-[12px] py-[8px] text-[16px] font-semibold text-white hover:text-[#C20000]">{link}</a>))}
-              <a href="/about-est-financial" className="ml-[8px] rounded-[6px] bg-[#E60000] px-[20px] py-[10px] text-[16px] font-extrabold text-white hover:bg-white hover:text-[#E60000]">Free Consultation</a>
-            </div>
           </div>
           <div className="grid grid-cols-1 gap-[30px] md:grid-cols-3">
             <div className="flex flex-col gap-[16px]"><div className="flex flex-col gap-[8px]"><a href="/credit-guide" className="text-[17px] text-white hover:text-[#C20000]">Credit Guide</a><a href="/privacy-policy" className="text-[17px] text-white hover:text-[#C20000]">Privacy Policy</a></div><div className="flex gap-[10px]">{[{ icon: "/icons/icon-facebook.svg", label: "Facebook" }, { icon: "/icons/icon-youtube.svg", label: "YouTube" }, { icon: "/icons/icon-instagram.svg", label: "Instagram" }, { icon: "/icons/icon-tiktok.svg", label: "TikTok" }].map((s) => (<a key={s.label} href="#" className="flex h-[36px] w-[36px] items-center justify-center rounded-full bg-[#C20000] hover:opacity-80" aria-label={s.label}>{/* eslint-disable-next-line @next/next/no-img-element */}<img src={s.icon} alt="" className="h-[18px] w-[18px] brightness-0 invert" /></a>))}</div></div>

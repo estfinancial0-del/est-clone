@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>8 Property Selection Criteria - Preview</title>
+  <style>
+    body {
+      background: #f0f0f0;
+      padding: 40px 20px;
+    }
+
+    .pp-accordion-wrap {
+      font-family: Georgia, serif;
+      max-width: 900px;
+      margin: 0 auto;
+      color: #333;
+    }
+
+    .pp-accordion-intro {
+      background: #f8f8f8;
+      border-left: 5px solid #1a3c5e;
+      padding: 24px 28px;
+      margin-bottom: 30px;
+      border-radius: 4px;
+    }
+
+    .pp-accordion-intro h2 {
+      color: #1a3c5e;
+      font-size: 26px;
+      margin: 0 0 16px 0;
+    }
+
+    .pp-criteria-list {
+      list-style: none;
+      padding: 0;
+      margin: 16px 0;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 8px;
+    }
+
+    .pp-criteria-list li {
+      background: #1a3c5e;
+      color: #fff;
+      padding: 8px 14px;
+      border-radius: 4px;
+      font-size: 14px;
+    }
+
+    .pp-criteria-list li span {
+      color: #c9a84c;
+      font-weight: bold;
+      margin-right: 6px;
+    }
+
+    .pp-priority-box {
+      background: #1a3c5e;
+      color: #fff;
+      text-align: center;
+      padding: 18px;
+      margin: 24px 0;
+      border-radius: 4px;
+      font-size: 15px;
+      line-height: 1.7;
+    }
+
+    .pp-priority-box strong {
+      color: #c9a84c;
+      display: block;
+      font-size: 17px;
+    }
+
+    .pp-accordion-item {
+      border: 1px solid #ddd;
+      border-radius: 6px;
+      margin-bottom: 10px;
+      overflow: hidden;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.07);
+    }
+
+    .pp-accordion-header {
+      background: #1a3c5e;
+      color: #fff;
+      padding: 16px 22px;
+      cursor: pointer;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      transition: background 0.2s;
+      user-select: none;
+    }
+
+    .pp-accordion-header:hover {
+      background: #14304f;
+    }
+
+    .pp-accordion-header.active {
+      background: #c9a84c;
+      color: #fff;
+    }
+
+    .pp-accordion-title {
+      font-size: 16px;
+      font-weight: bold;
+      letter-spacing: 0.3px;
+    }
+
+    .pp-accordion-icon {
+      font-size: 22px;
+      font-weight: bold;
+      line-height: 1;
+      transition: transform 0.3s;
+      flex-shrink: 0;
+      margin-left: 12px;
+    }
+
+    .pp-accordion-header.active .pp-accordion-icon {
+      transform: rotate(45deg);
+    }
+
+    .pp-accordion-body {
+      display: none;
+      padding: 24px 28px;
+      background: #fff;
+      line-height: 1.8;
+      font-size: 15px;
+    }
+
+    .pp-accordion-body.open {
+      display: block;
+    }
+
+    .pp-accordion-body p {
+      margin: 0 0 14px 0;
+    }
+
+    .pp-accordion-body ul {
+      margin: 10px 0 14px 0;
+      padding-left: 20px;
+    }
+
+    .pp-accordion-body ul li {
+      margin-bottom: 8px;
+    }
+
+    .pp-highlight {
+      color: #c9a84c;
+      font-weight: bold;
+    }
+
+    @media (max-width: 600px) {
+      .pp-criteria-list {
+        grid-template-columns: 1fr;
+      }
+      .pp-accordion-body {
+        padding: 18px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<div class="pp-accordion-wrap">
+
+  <div class="pp-accordion-intro">
+    <h2>8 Property Selection Criteria</h2>
+    <p>Positive Properties is a licensed corporate real estate agency that specialises in the acquisition, ownership, management and sale of real estate assets with the goal of making a profit or a capital gain.</p>
+    <p>Its primary role is two-fold: researching and reporting of various property markets throughout New South Wales, Victoria and Queensland, and analysis and selection of sound investment properties for its clients.</p>
+    <p>For Positive Properties to be satisfied that a particular property represents a sound investment, it must meet our <strong>8 Property Selection Criteria</strong>:</p>
+
+    <ul class="pp-criteria-list">
+      <li><span>1.</span> Capital Growth Rate &gt;6%</li>
+      <li><span>2.</span> Population Growth &gt;1.7%</li>
+      <li><span>3.</span> Residential Vacancy Rate &lt;1.2%</li>
+      <li><span>4.</span> Established and Planned Infrastructure</li>
+      <li><span>5.</span> Median Property Price +15%</li>
+      <li><span>6.</span> Rental Yield ~4.0%</li>
+      <li><span>7.</span> Tax Effectiveness</li>
+      <li><span>8.</span> Little Luxuries</li>
+    </ul>
+
+    <div class="pp-priority-box">
+      <strong>Priority is given to the economics of the area FIRST</strong>
+      and then to the specific property criteria SECOND.<br><br>
+      Going from a <strong>MACRO</strong> to a <strong>MICRO</strong> level ensures a logical process for selecting a specific investment property.
+    </div>
+  </div>
+
+  <!-- Item 1 -->
+  <div class="pp-accordion-item">
+    <div class="pp-accordion-header" onclick="ppToggle(this)">
+      <span class="pp-accordion-title">1. Capital Growth Rate &gt;6%</span>
+      <span class="pp-accordion-icon">+</span>
+    </div>
+    <div class="pp-accordion-body">
+      <p>Since capital growth is the element that enables a property investor to achieve long term wealth and security, the property recommended must be in a location that has a consistent track record of at least a <span class="pp-highlight">6% annualised capital growth rate</span>.</p>
+      <p>Positive Properties needs to be satisfied that the area has had a historical growth rate for a long enough period (usually 10 to 15 years) that would enable a reasonable person to assume this proven rate is likely to continue for the next 10 to 15 years.</p>
+      <p>An area with a historical growth rate below 6% signifies that it has not been a consistent performer. Conversely, a recent growth rate as high as 20% p.a. may also not be in the investor's best interest as:</p>
+      <ul>
+        <li>The investor may be entering the market too late, paying 20%–40% more than two years prior.</li>
+        <li>A consistent 20% p.a. growth rate cannot be sustained and will likely average out to less than 6% p.a.</li>
+      </ul>
+      <p>This information is compiled by the Positive Properties research team from independent sources including the Real Estate Institute, BIS Shrapnel, Residex, RP Data and other industry bodies.</p>
+    </div>
+  </div>
+
+  <!-- Item 2 -->
+  <div class="pp-accordion-item">
+    <div class="pp-accordion-header" onclick="ppToggle(this)">
+      <span class="pp-accordion-title">2. Population Growth &gt;1.7%</span>
+      <span class="pp-accordion-icon">+</span>
+    </div>
+    <div class="pp-accordion-body">
+      <p>At Positive Properties, we believe the 'Golden Rule' of property should go beyond <em>'Position, Position, Position'</em> to also include:</p>
+      <p style="text-align:center; font-size:18px; color:#1a3c5e; font-weight:bold;">'People, People, People'</p>
+      <p>It is people who buy property and people who rent property — and therefore it is people that choose 'the good' and 'the bad' positions.</p>
+      <p>An area experiencing positive population growth results in ever-increasing demand for housing. Basic economic principles indicate this will result in an increase in property prices.</p>
+      <p>Positive Properties uses data from the Australian Bureau of Statistics and specialised Population Growth reports to identify areas growing at an average annual rate greater than <span class="pp-highlight">1.7% per annum</span>. This benchmark depicts sufficient demand to sustain both a strong capital growth rate and strong rental demand.</p>
+    </div>
+  </div>
+
+  <!-- Item 3 -->
+  <div class="pp-accordion-item">
+    <div class="pp-accordion-header" onclick="ppToggle(this)">
+      <span class="pp-accordion-title">3. Residential Vacancy Rate &lt;1.2%</span>
+      <span class="pp-accordion-icon">+</span>
+    </div>
+    <div class="pp-accordion-body">
+      <p>The same fundamental laws of supply and demand that affect the share market affect the property market. An area in high demand and low supply will experience above-average capital growth; an oversupplied area will experience below-average growth.</p>
+      <p>The <span class="pp-highlight">Residential Vacancy Rate</span> is the best indicator of the ratio between current supply and demand. It calculates, as a percentage, the number of investment properties that are vacant and actively seeking a tenant at a given point in time.</p>
+      <p>A vacancy rate of 3.0% indicates a balanced market. A rate above 3.0% signals oversupply, which may force an investor to:</p>
+      <ul>
+        <li>Experience an extended period without a tenant.</li>
+        <li>Reduce rental income to compete in the market.</li>
+        <li>Incur a greater than anticipated cash flow expense.</li>
+      </ul>
+      <p>Positive Properties recommends areas with a long-term residential vacancy rate of <span class="pp-highlight">less than 1.2%</span> to ensure sufficient demand for strong rental yield and capital growth.</p>
+    </div>
+  </div>
+
+  <!-- Item 4 -->
+  <div class="pp-accordion-item">
+    <div class="pp-accordion-header" onclick="ppToggle(this)">
+      <span class="pp-accordion-title">4. Established and Planned Infrastructure</span>
+      <span class="pp-accordion-icon">+</span>
+    </div>
+    <div class="pp-accordion-body">
+      <p>Infrastructure influences demand within an area. Existing infrastructure is divided into two broad categories:</p>
+      <ul>
+        <li><strong>Local transportation links</strong> — bus routes, train stations, freeways and major arterial roads.</li>
+        <li><strong>Local amenities</strong> — schools, shopping centres, parks and recreational activities.</li>
+      </ul>
+      <p>A property within easy reach of both transportation and amenities increases attractiveness to prospective tenants. If an area has satisfied the first three criteria, it will likely have already satisfied this element too — however, it is included individually to ensure it is not overlooked.</p>
+      <p>Beyond existing infrastructure, Positive Properties also assesses <span class="pp-highlight">planned future development</span>. Government rezoning, new roads, schools, hospitals and private sector investment are all proof that population growth into the area is anticipated — which, in turn, creates employment and an even greater desire for people to live there.</p>
+    </div>
+  </div>
+
+  <!-- Item 5 -->
+  <div class="pp-accordion-item">
+    <div class="pp-accordion-header" onclick="ppToggle(this)">
+      <span class="pp-accordion-title">5. Median Property Price +15%</span>
+      <span class="pp-accordion-icon">+</span>
+    </div>
+    <div class="pp-accordion-body">
+      <p>Once a strong growth area has been identified, it is time to select a specific property. The first of the four property-specific criteria relates to price range.</p>
+      <p>At Positive Properties, we refer to the <span class="pp-highlight">'bread and butter' property</span> — a typical property that the majority of Australians can afford to buy and/or rent. This falls within the <strong>Median Property Price</strong> — the price at which half the properties in a suburb are dearer and half are cheaper.</p>
+      <p>We recommend investing at a price point no greater than <span class="pp-highlight">15% above the median property price</span> for the area. Within this range, an investor can obtain an above-average property in stronger demand by both purchasers and tenants than at any other price point.</p>
+      <p>By avoiding properties that are too cheap or too expensive, you supply a product for the largest population percentile, achieving the greatest level of demand when choosing to rent <em>or</em> sell the investment property.</p>
+    </div>
+  </div>
+
+  <!-- Item 6 -->
+  <div class="pp-accordion-item">
+    <div class="pp-accordion-header" onclick="ppToggle(this)">
+      <span class="pp-accordion-title">6. Rental Yield ~4.0%</span>
+      <span class="pp-accordion-icon">+</span>
+    </div>
+    <div class="pp-accordion-body">
+      <p>The rental income derived from a property is a cash flow tool used to assist fund the property, pay down debt and eventually replace other personal income streams. The <span class="pp-highlight">rental yield</span> is the annualised rental income expressed as a percentage of the property's value.</p>
+      <p><em>Example: On a $1,002,500 property, a weekly rental of $665 equates to an annual income of $34,580 — a rental yield of 3.4%.</em></p>
+      <p>Our research indicates that areas with a <strong>high rental yield</strong> tend to have a <strong>low capital growth rate</strong>, and vice versa. The market is always striving for balance:</p>
+      <ul>
+        <li>Rental yield &gt;5% — investors accept lower capital growth (more money now).</li>
+        <li>Rental yield &lt;3% — investors need higher capital growth to compensate (more money later).</li>
+      </ul>
+      <p>Positive Properties recommends a rental yield range of <span class="pp-highlight">3.5% to 4.5% (~4.0%)</span> as the most ideal — indicating a moderately solid growth rate, a relatively balanced market and an acceptable income stream to assist in servicing the investment property.</p>
+    </div>
+  </div>
+
+  <!-- Item 7 -->
+  <div class="pp-accordion-item">
+    <div class="pp-accordion-header" onclick="ppToggle(this)">
+      <span class="pp-accordion-title">7. Tax Effectiveness</span>
+      <span class="pp-accordion-icon">+</span>
+    </div>
+    <div class="pp-accordion-body">
+      <p>Two side-by-side properties acquired for the same price can vary significantly in their week-to-week cash flow requirements. One key factor is the level of <span class="pp-highlight">claimable depreciation</span>.</p>
+      <p>A depreciation schedule itemises every item used to construct a property — both internally and externally — placing a value and depreciable allowance on every item. It is prepared by a registered Quantity Surveyor and classifies items into two broad categories:</p>
+      <ul>
+        <li><strong>Fixtures and fittings</strong></li>
+        <li><strong>Capital allowance</strong></li>
+      </ul>
+      <p>Both categories have differing degrees of claimable depreciation, varying significantly based on quality, type of fixtures and the age of the property.</p>
+      <p>A properly analysed depreciation schedule enables an investor to increase tax deductions, place a greater portion of 'tax dollars' into funding the property and reduce personal cash flow requirements. At Positive Properties, the level of depreciable allowance is always assessed prior to making a specific property recommendation.</p>
+    </div>
+  </div>
+
+  <!-- Item 8 -->
+  <div class="pp-accordion-item">
+    <div class="pp-accordion-header" onclick="ppToggle(this)">
+      <span class="pp-accordion-title">8. Little Luxuries</span>
+      <span class="pp-accordion-icon">+</span>
+    </div>
+    <div class="pp-accordion-body">
+      <p>The final criterion cannot be quantified or calculated. While the preceding 7 elements ensure a logical, unemotional decision, the 8th criterion adds a real-life dimension to the property selection process.</p>
+      <p>Tenants today face a multitude of choices. Certain elements make a particular property unique and more desirable. At Positive Properties, we call these <span class="pp-highlight">'Little Luxuries'</span>.</p>
+      <p><strong>For a house and land package, Little Luxuries could include:</strong></p>
+      <ul>
+        <li>An additional living area within the home</li>
+        <li>An air conditioning unit</li>
+        <li>An outdoor 'alfresco' dining area</li>
+        <li>An extra-large garden</li>
+      </ul>
+      <p><strong>For a townhouse or unit, Little Luxuries could include:</strong></p>
+      <ul>
+        <li>An on-site property manager or caretaker</li>
+        <li>A security estate with remote-controlled entrance</li>
+        <li>Open gardens or parklands with barbecue facilities</li>
+        <li>A swimming pool, gymnasium, or tennis court</li>
+      </ul>
+      <p>These Little Luxuries are explored and identified <em>only after</em> the property has satisfied all preceding 7 criteria — yet another way that Positive Properties gives its clients an unfair advantage, every step of the way.</p>
+    </div>
+  </div>
+
+</div>
+
+<script>
+  function ppToggle(header) {
+    var body = header.nextElementSibling;
+    var isOpen = body.classList.contains('open');
+
+    // Close all open items
+    document.querySelectorAll('.pp-accordion-body.open').forEach(function(el) {
+      el.classList.remove('open');
+    });
+    document.querySelectorAll('.pp-accordion-header.active').forEach(function(el) {
+      el.classList.remove('active');
+    });
+
+    // Open clicked item if it was closed
+    if (!isOpen) {
+      body.classList.add('open');
+      header.classList.add('active');
+    }
+  }
+</script>
+
+</body>
+</html>

@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .property-criteria-popup {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+
+        .popup-header {
+            background: #c20000;
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+
+        .popup-title {
+            font-size: 28px;
+            font-weight: 700;
+            margin: 0 0 10px 0;
+            letter-spacing: -0.5px;
+            color:#fff;
+        }
+
+        .popup-subtitle {
+            font-size: 24px;
+            opacity: 0.9;
+            margin: 0;
+            font-weight: 400;
+        }
+
+        .criteria-container {
+            padding: 0;
+        }
+
+        .criteria-item {
+            border-bottom: 1px solid #f0f0f0;
+            transition: all 0.3s ease;
+        }
+
+        .criteria-header {
+            padding: 25px 30px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background: white;
+            transition: background-color 0.3s ease;
+        }
+
+        .criteria-header:hover {
+            background: #f8f8f8;
+        }
+
+        .criteria-item.active .criteria-header {
+            background: #f0f0f0;
+        }
+
+        .criteria-left {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .criteria-number {
+            width: 40px;
+            height: 40px;
+            background: #c20000;
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+            font-size: 16px;
+            flex-shrink: 0;
+        }
+
+        .criteria-info h3 {
+            margin: 0 0 5px 0;
+            font-size: 24px;
+            font-weight: 600;
+            color: #000;
+        }
+
+        .criteria-summary {
+            margin: 0;
+            font-size: 20px;
+            color: #666;
+        }
+
+        .criteria-icon {
+            font-size: 20px;
+            color: #666;
+            transition: transform 0.3s ease;
+        }
+
+        .criteria-item.active .criteria-icon {
+            transform: rotate(180deg);
+        }
+
+        .criteria-content {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.4s ease;
+            background: #ffffff;
+        }
+
+        .criteria-item.active .criteria-content {
+            height: auto;
+            max-height: 10000px;
+        }
+
+        .criteria-inner {
+            padding: 25px 75px 25px 90px;
+        }
+
+        .criteria-description {
+            font-size: 20px;
+            line-height: 1.6;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        .criteria-highlight {
+            background: white;
+            border: 2px solid #c20000;
+            border-radius: 6px;
+            padding: 15px;
+            margin: 15px 0;
+        }
+
+        .criteria-highlight h4 {
+            margin: 0 0 8px 0;
+            font-size: 14px;
+            font-weight: 600;
+            color: #c20000;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .criteria-highlight p {
+            margin: 0;
+            font-size: 14px;
+            color: #000;
+            font-weight: 500;
+        }
+
+        .popup-controls {
+            padding: 20px 30px;
+            background: #f8f8f8;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-top: 1px solid #e0e0e0;
+        }
+
+        .control-btn {
+            background: #c20000;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-weight: 500;
+            font-size: 14px;
+            transition: background-color 0.3s ease;
+        }
+
+        .control-btn:hover {
+            background: #a00000;
+        }
+
+        .control-btn.secondary {
+            background: #666;
+        }
+
+        .control-btn.secondary:hover {
+            background: #555;
+        }
+
+        .progress-indicator {
+            font-size: 14px;
+            color: #666;
+            font-weight: 500;
+        }
+
+        .high-text {
+            color: #c20000;
+            font-weight: 700;
+        }
+
+        .bold-text {
+            font-weight: 700;
+        }
+
+        /* Mobile responsive */
+        @media (max-width: 768px) {
+            .popup-title {
+                font-size: 24px;
+            }
+
+            .criteria-header {
+                padding: 20px;
+            }
+
+            .criteria-inner {
+                padding: 20px 20px 20px 70px;
+            }
+
+            .criteria-left {
+                gap: 15px;
+            }
+
+            .criteria-number {
+                width: 35px;
+                height: 35px;
+                font-size: 14px;
+            }
+
+            .criteria-info h3 {
+                font-size: 18px;
+            }
+
+            .popup-controls {
+                padding: 15px 20px;
+                flex-direction: column;
+                gap: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="property-criteria-popup">
+        <div class="popup-header">
+            <h2 class="popup-title">8 Property Selection Criteria</h2>
+        </div>
+
+        <div class="criteria-container">
+
+            <!-- Criterion 1 -->
+            <div class="criteria-item" onclick="toggleCriteria(this)">
+                <div class="criteria-header">
+                    <div class="criteria-left">
+                        <div class="criteria-number">1</div>
+                        <div class="criteria-info">
+                            <h3>Capital Growth Rate <span class="high-text">&gt;6%</span></h3>
+                        </div>
+                    </div>
+                    <div class="criteria-icon">↓</div>
+                </div>
+                <div class="criteria-content">
+                    <div class="criteria-inner">
+                        <div class="criteria-description">
+                            Since capital growth is the element that enables a property investor to achieve long term wealth and security, first and foremost, the property recommended must be in a location that has a consistent track record of at least a <strong>6% annualised capital growth rate</strong>.
+                            <br><br>
+                            Positive Properties needs to be satisfied that the area in which the property is recommended has had a historical growth rate for a long enough period of time (usually between 10 to 15 years) that would enable a reasonable person to assume that this proven and consistent growth rate is likely to continue for the next 10 to 15 years.
+                            <br><br>
+                            An area that has an historical growth rate below 6% signifies that the area has not been a consistent performer and raises the concern that certain factors that contribute to a high capital growth rate have not existed in the area.
+                            <br><br>
+                            On the other hand, an area that has a more recent capital growth rate as high as 20% p.a. in the past two years may also not be in the investor's best interest as:
+                            <br><br>
+                            <ul>
+                                <li>This may represent a situation whereby the investor is entering the market a little too late and will be paying an extra 20% to 40% more for the same property they could have acquired a mere two years ago.</li>
+                                <li>A consistent growth rate of 20% p.a. cannot be sustained for a considerable period and will only likely see the market experience an average capital growth rate of less than 6% p.a.</li>
+                            </ul>
+                            The information relating to capital growth rates is compiled by the Positive Properties research team from data available from independent sources including the Real Estate Institute, BIS Shrapnel, Residex, RP Data and other various industry bodies.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Criterion 2 -->
+            <div class="criteria-item" onclick="toggleCriteria(this)">
+                <div class="criteria-header">
+                    <div class="criteria-left">
+                        <div class="criteria-number">2</div>
+                        <div class="criteria-info">
+                            <h3>Population Growth <span class="high-text">&gt;1.7%</span></h3>
+                        </div>
+                    </div>
+                    <div class="criteria-icon">↓</div>
+                </div>
+                <div class="criteria-content">
+                    <div class="criteria-inner">
+                        <div class="criteria-description">
+                            There is an old real estate cliché that states 'Position, Position, Position' are the three most important factors a prospective purchaser should consider when buying property. At Positive Properties, we believe the 'Golden Rule' should be expanded to also include:
+                            <br><br>
+                            <div style="text-align:center; font-size:22px; color:#c20000; font-weight:700; margin: 10px 0;">'People, People, People'</div>
+                            <br>
+                            After all, it is people who buy property and people that rent property — and therefore it is people that choose 'the good' and 'the bad' positions.
+                            <br><br>
+                            This relates to the basic laws of supply and demand. An area that is experiencing positive population growth results in an ever-increasing level of demand for housing, which basic economic principles would indicate results in an increase in price.
+                            <br><br>
+                            Positive Properties utilises the services of both the Australian Bureau of Statistics and very specialised reports dealing with Population Growth to research and report on population movements and trends across Australia. Areas are further narrowed to those growing at an average annual rate greater than <strong>1.7% per annum</strong>.
+                            <br><br>
+                            This minimum growth benchmark depicts a certain demand for property in the area which will allow both a strong capital growth rate and a strong rental demand to be sustained — and will often direct property investors to opportunities within the main capital cities of Australia.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Criterion 3 -->
+            <div class="criteria-item" onclick="toggleCriteria(this)">
+                <div class="criteria-header">
+                    <div class="criteria-left">
+                        <div class="criteria-number">3</div>
+                        <div class="criteria-info">
+                            <h3>Residential Vacancy Rate <span class="high-text">&lt;1.2%</span></h3>
+                        </div>
+                    </div>
+                    <div class="criteria-icon">↓</div>
+                </div>
+                <div class="criteria-content">
+                    <div class="criteria-inner">
+                        <div class="criteria-description">
+                            At Positive Properties, we believe that the same fundamental economic factors that affect the price of shares — the basic laws of supply and demand — are exactly the same factors that affect the price of housing in the property market.
+                            <br><br>
+                            An area that is in high demand and low supply will inevitably experience an above average level of capital growth whilst an area that is oversupplied will result in below average capital growth.
+                            <br><br>
+                            The best indicator to determine the ratio between current supply versus demand is the <strong>Residential Vacancy Rate</strong> — a sample figure that calculates, as a percentage, the number of investment properties that are vacant in each area at a given point in time.
+                            <br><br>
+                            Since a vacancy rate of 3.0% indicates a balanced market, a rate above 3.0% indicates an oversupply, which may force a property investor to:
+                            <br><br>
+                            <ul>
+                                <li>Experience an extended period of time without a tenant.</li>
+                                <li>Be forced to reduce their rental income to make the property more attractive in a competitive market.</li>
+                                <li>Incur a greater than anticipated cash flow expense because of the low rental yield.</li>
+                            </ul>
+                            That is why Positive Properties will always recommend an area that has a long-term residential vacancy rate of <strong>less than 1.2%</strong> — to ensure there is sufficient demand and not too much supply in the area to achieve the desired annual rental yield and capital growth.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Criterion 4 -->
+            <div class="criteria-item" onclick="toggleCriteria(this)">
+                <div class="criteria-header">
+                    <div class="criteria-left">
+                        <div class="criteria-number">4</div>
+                        <div class="criteria-info">
+                            <h3>Established and Planned <span class="high-text">Infrastructure</span></h3>
+                        </div>
+                    </div>
+                    <div class="criteria-icon">↓</div>
+                </div>
+                <div class="criteria-content">
+                    <div class="criteria-inner">
+                        <div class="criteria-description">
+                            Some of the specific elements that influence demand within an area is the degree to which established infrastructure is readily accessible to tenants. Existing infrastructure is divided into two broad categories:
+                            <br><br>
+                            <ul>
+                                <li><strong>Local transportation links</strong> — easy access to bus routes, train stations, freeways and major arterial roads.</li>
+                                <li><strong>Local amenities</strong> — distances from schools, shopping centres, parks and other recreational activities.</li>
+                            </ul>
+                            Since Positive Properties believes that a property within easy reach of both transportation links and local amenities increases attractiveness to a prospective tenant, this is an essential criterion in every recommendation.
+                            <br><br>
+                            To take this one step deeper, it is also important that not only the level of existing infrastructure be assessed, but also the degree to which <strong>future urban planning</strong> exists in the area.
+                            <br><br>
+                            If state government is rezoning land and spending money on roads, if local government is building schools and hospitals, and if the private sector is investing in shopping centres and local business — this is solid proof that they are catering for and expecting an increasing population movement into the area.
+                            <br><br>
+                            This, in turn, creates employment and an even greater desire for people to live within the area — which, in turn, influences future spending — creating a powerful cycle of growth.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Criterion 5 -->
+            <div class="criteria-item" onclick="toggleCriteria(this)">
+                <div class="criteria-header">
+                    <div class="criteria-left">
+                        <div class="criteria-number">5</div>
+                        <div class="criteria-info">
+                            <h3>Median Property Price <span class="high-text">+15%</span></h3>
+                        </div>
+                    </div>
+                    <div class="criteria-icon">↓</div>
+                </div>
+                <div class="criteria-content">
+                    <div class="criteria-inner">
+                        <div class="criteria-description">
+                            Once a suitable area has been identified using the first four criteria, it is time to select and assess a specific property within that area. The first of the four property-specific criteria relates to the <strong>price range</strong> of the recommended property.
+                            <br><br>
+                            You will often hear the term <strong>'bread and butter' property</strong> used at Positive Properties. This loosely refers to a typical property that the majority of Australians can afford to buy and/or rent — a property within the <strong>Median Property Price</strong>.
+                            <br><br>
+                            The Median Property Price is the price at which half the properties in the suburb are dearer and half are cheaper. It is important to note that the Median Property Price is not influenced by exceptional property values that may distort statistics, as may be the case in the calculation of the Average Property Price.
+                            <br><br>
+                            Positive Properties recommends that a property investor invests at a price point that is <strong>no greater than 15% more than the median property price</strong> for that particular area. Within that +15% price range, an investor can obtain an above-average property that is in stronger demand by both purchasers and tenants than at any other price point.
+                            <br><br>
+                            By avoiding properties that are too cheap or too expensive, you supply a product for the largest population percentile and therefore achieve the greatest level of demand when choosing to rent or sell the investment property.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Criterion 6 -->
+            <div class="criteria-item" onclick="toggleCriteria(this)">
+                <div class="criteria-header">
+                    <div class="criteria-left">
+                        <div class="criteria-number">6</div>
+                        <div class="criteria-info">
+                            <h3>Rental Yield <span class="high-text">~4.0%</span></h3>
+                        </div>
+                    </div>
+                    <div class="criteria-icon">↓</div>
+                </div>
+                <div class="criteria-content">
+                    <div class="criteria-inner">
+                        <div class="criteria-description">
+                            It is not only the ability to achieve capital growth that makes property investing exciting, but also the fact that a regular and constant income stream can be derived from that property. The <strong>rental yield</strong> is simply the annualised rental income expressed as a percentage of the value of the property.
+                            <br><br>
+                            <div class="criteria-highlight">
+                                <h4>Example</h4>
+                                <p>On a $1,002,500 property, a weekly rental of $665 equates to an annual rental income of $34,580 — a rental yield of 3.4%.</p>
+                            </div>
+                            <br>
+                            Our research has indicated that an area with a <strong>high rental yield</strong> will have a <strong>low capital growth rate</strong> and vice versa. The market is always striving for a state of equilibrium:
+                            <br><br>
+                            <ul>
+                                <li><strong>Rental yield &gt;5%</strong> — investors accept a less than average capital growth rate (more money now).</li>
+                                <li><strong>Rental yield &lt;3%</strong> — investors need to be compensated by a greater than average capital growth rate (more money later).</li>
+                            </ul>
+                            That is why Positive Properties recommends a rental yield range of <strong>3.5% to 4.5% (~4.0%)</strong> as being the most ideal. This range indicates an area that is achieving a moderately solid growth rate, is relatively balanced, and has an acceptable cash flow income stream to assist in the servicing and maintenance of the investment property.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Criterion 7 -->
+            <div class="criteria-item" onclick="toggleCriteria(this)">
+                <div class="criteria-header">
+                    <div class="criteria-left">
+                        <div class="criteria-number">7</div>
+                        <div class="criteria-info">
+                            <h3>Tax <span class="high-text">Effectiveness</span></h3>
+                        </div>
+                    </div>
+                    <div class="criteria-icon">↓</div>
+                </div>
+                <div class="criteria-content">
+                    <div class="criteria-inner">
+                        <div class="criteria-description">
+                            It is quite possible to have two properties that are side-by-side, both acquired for the same amount of money, yet vary quite significantly in their week-to-week cash flow requirements.
+                            <br><br>
+                            One such item that can make a significant difference to an investor is the level of claimable <strong>depreciation</strong> associated with a particular property. The depreciation schedule itemises every item used to construct the property both internally and externally, and places a value and a corresponding depreciable allowance on every item.
+                            <br><br>
+                            A registered Quantity Surveyor prepares the detailed report and generally classifies all items into two broad categories:
+                            <br><br>
+                            <ul>
+                                <li><strong>Fixtures and fittings</strong></li>
+                                <li><strong>Capital allowance</strong></li>
+                            </ul>
+                            Both these items have differing degrees of claimable depreciation and most certainly varies significantly depending upon factors such as the quality and type of fixtures and fittings used as well as the age of the property.
+                            <br><br>
+                            A properly analysed depreciation schedule will enable an investor to increase their level of tax deductions and therefore place a greater portion of their 'tax dollars' into funding the property — reducing their level of personal cash flow requirements. At Positive Properties, the level of depreciable allowance is always assessed prior to making a specific property recommendation.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Criterion 8 -->
+            <div class="criteria-item" onclick="toggleCriteria(this)">
+                <div class="criteria-header">
+                    <div class="criteria-left">
+                        <div class="criteria-number">8</div>
+                        <div class="criteria-info">
+                            <h3>Little <span class="high-text">Luxuries</span></h3>
+                        </div>
+                    </div>
+                    <div class="criteria-icon">↓</div>
+                </div>
+                <div class="criteria-content">
+                    <div class="criteria-inner">
+                        <div class="criteria-description">
+                            There is one more element remaining to complete our 8 Property Selection Criteria and, unlike the preceding 7 elements, the final criteria cannot be quantified or calculated.
+                            <br><br>
+                            The 8th criterion adds a slightly different spin on the property selection process and in fact, adds a real-life and emotional content into the process. Tenants today are faced with a multitude of options and choices. There are, however, certain elements that make a particular property unique and therefore more desirable to a prospective tenant.
+                            <br><br>
+                            At Positive Properties, we call these items <strong>'Little Luxuries'</strong> — they simply represent any element that may give a particular property an edge over another when looking through the eyes of a potential tenant.
+                            <br><br>
+                            <strong>For a house and land package, Little Luxuries could include:</strong>
+                            <ul>
+                                <li>An additional living area within the home</li>
+                                <li>An air conditioning unit</li>
+                                <li>An outdoor 'alfresco' dining area</li>
+                                <li>An extra-large garden</li>
+                            </ul>
+                            <strong>For a townhouse or unit, Little Luxuries could include:</strong>
+                            <ul>
+                                <li>An on-site property manager or caretaker</li>
+                                <li>A security estate operated via a remote-controlled entrance</li>
+                                <li>Open gardens or parklands with barbecue facilities</li>
+                                <li>A swimming pool, gymnasium, or tennis court</li>
+                            </ul>
+                            These Little Luxuries are explored and identified <em>only after</em> the property has satisfied all the preceding 7 criteria — yet another way that Positive Properties gives its clients an unfair advantage, every step of the way.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="popup-controls">
+            <button class="control-btn secondary" onclick="collapseAll()">Collapse All</button>
+            <div class="progress-indicator">
+                <span id="openCount">0</span> of 8 criteria expanded
+            </div>
+            <button class="control-btn" onclick="expandAll()">Expand All</button>
+        </div>
+    </div>
+
+    <script>
+        let openCount = 0;
+
+        function toggleCriteria(element) {
+            const isActive = element.classList.contains('active');
+
+            if (isActive) {
+                element.classList.remove('active');
+                openCount--;
+            } else {
+                element.classList.add('active');
+                openCount++;
+            }
+
+            updateCounter();
+        }
+
+        function expandAll() {
+            const items = document.querySelectorAll('.criteria-item');
+            items.forEach(item => {
+                if (!item.classList.contains('active')) {
+                    item.classList.add('active');
+                }
+            });
+            openCount = 8;
+            updateCounter();
+        }
+
+        function collapseAll() {
+            const items = document.querySelectorAll('.criteria-item');
+            items.forEach(item => {
+                item.classList.remove('active');
+            });
+            openCount = 0;
+            updateCounter();
+        }
+
+        function updateCounter() {
+            document.getElementById('openCount').textContent = openCount;
+        }
+    </script>
+</body>
+</html>
